@@ -1,4 +1,7 @@
 - [Routing](#routing)
+	- [Routing GET Basique](#routing-get-basique)
+	- [Routing POST Basique](#routing-post-basique)
+- [Filters](#filters)
 - [Routes de Controller](#routes-de-controller)
 
 ## Routing
