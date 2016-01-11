@@ -1,5 +1,5 @@
 - [Routing](#routing)
-- [Routes de Controller](#routes_de_controller)
+- [Routes de Controller](#routes-de-controller)
 
 ## Routing
 
