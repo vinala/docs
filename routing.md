@@ -15,6 +15,14 @@ Toutes les routes de l'application sont définie dans le fichier `app/http/Route
 		echo 'Hello World';
 	});
 
+vous pouvez également utiliser la Scoop fonction `get()`.
+
+	get('/', function()
+	{
+		echo 'Hello World';
+	});
+
+
 ### Routing POST Basique
 
 Ce routes pour verifier si il y a des $_POST
@@ -23,6 +31,13 @@ Ce routes pour verifier si il y a des $_POST
 	{
 		echo 'Hello World';
 	});
+
+vous pouvez également utiliser la Scoop fonction `post()`.
+
+	post('/', function()
+		{
+			echo 'Hello World';
+		});
 
 ## Filters
 
