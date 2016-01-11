@@ -1,3 +1,9 @@
+- [Views](#views)
+	- [L'appel d'une view](#lappel-dune-view)
+	- [Passer des valeurs à une view](#passer-des-valeurs-à-une-view)
+	- [Stockage d'une view](#stockage-dune-view)
+- [Smarty Templating](#smarty-templating)
+
 
 ## Views
 
@@ -66,7 +72,7 @@ Pour stocker une view dans un variable en utilisant la methode `View::get()`
 	$view = View::get('hello', array('nom','Youssef'));
 	echo $view;
 
-### Smarty Templating
+## Smarty Templating
 
 Fiesta Utilise Smarty.
 
