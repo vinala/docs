@@ -1,3 +1,6 @@
+- [Routing](#routing)
+- [Routes de Controller](#routes_de_controller)
+
 ## Routing
 
 Toutes les routes de l'application sont définie dans le fichier `app/http/Routes.php`, l'appelle d'une route doivent être consisté d'URL et la function de callback
