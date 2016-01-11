@@ -5,6 +5,14 @@ Fiesta PHP Framework
 
 ### Installation
 
+####Installer Composer
+
+Fiesta utilise 'Composer', Vous pouvez utiliser composer pour installer Fiesta et ses dépendances.
+
+Tout d'abord, télécharger et installer [Composer Windows installer](https://getcomposer.org/)
+
+
+
 Vous pouvez installer Fiesta via [Composer](https://getcomposer.org/) en utilisent la commande create-project dans votre terminal
 
 	composer create-project fiesta/fiesta
