@@ -50,7 +50,7 @@ Pour passer des valeurs à une vue vous devez passer un `array()` de données co
 
 	View::make('home.hello',array('nom' => 'youssef'));
 
-
+Voici la view :
 
 	<!-- View stocké in app/views/home/hello.php -->
 	<html>
