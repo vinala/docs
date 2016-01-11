@@ -70,7 +70,7 @@ Après l'installation de Fiesta vous devez modifier quelques paramètres de conf
 
 Aussi vous devez régler le paramètre de l'URL root `url` de votre projet que ce soit dans un serveur local où à distance dans `app/config/app.php`
 
-###  Apach
+###  Apache
 
 Fiesta livré avec fichier `.htaccess` qui utilise URL rewriting, is vous utilisez Apache, Soyez sûr que vous avez activé l'extension `mod_rewrite`
 
