@@ -11,36 +11,42 @@ Toutes les routes de l'application sont définie dans le fichier `app/http/Route
 ### Routing GET Basique
 
 ```php
-	Route::get('/', function()
-	{
-		echo 'Hello World';
-	});
+Route::get('/', function()
+{
+	echo 'Hello World';
+});
 
 ```
 
 vous pouvez également utiliser la Scoop fonction `get()`.
 
-	get('/', function()
-	{
-		echo 'Hello World';
-	});
+```php
+get('/', function()
+{
+	echo 'Hello World';
+});
+```
 
 
 ### Routing POST Basique
 
 Ce routes pour verifier si il y a des $_POST
 
-	Route::post('/', function()
-	{
-		echo 'Hello World';
-	});
+```php
+Route::post('/', function()
+{
+	echo 'Hello World';
+});
+```
 
 vous pouvez également utiliser la Scoop fonction `post()`.
 
-	post('/', function()
-		{
-			echo 'Hello World';
-		});
+```php
+post('/', function()
+{
+	echo 'Hello World';
+});
+```
 
 ## Filters
 
@@ -50,20 +56,24 @@ les filtres sont des méthodes que s'exécute avant la requête de route pour v�
 
 Voici un filtre pour que les visiteurs de site peuvent voire le contenu de site seulement dans les jours de samedi :
 
-	Route::filter("just_samedi", function()
-	{
-		if(date("D") != "Sat"){
-		return false;
-	}
-		else else true;
-	});
+```php
+Route::filter("just_samedi", function()
+{
+	if(date("D") != "Sat"){
+	return false;
+}
+	else else true;
+});
+```
 
 l'implémentation de ce filtre est comme ça
 
-	Route::get('/', array("just_samedi",function()
-	{
-		echo "Salut! c'est samedi";
-	}));
+```php
+Route::get('/', array("just_samedi",function()
+{
+	echo "Salut! c'est samedi";
+}));
+```
 
 ## Routes de Controller
 
@@ -71,4 +81,6 @@ Vous pouvez déterminer un ensemble de routes vers les methodes statiques d'un C
 
 Cet exemple on a créé un contrôleur client, le route de ce contrôleur est comme ça
 
-	Route::resource('client', 'clientCntrl');
+```php
+Route::resource('client', 'clientCntrl');
+```
