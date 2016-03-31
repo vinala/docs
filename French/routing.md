@@ -10,10 +10,13 @@ Toutes les routes de l'application sont définie dans le fichier `app/http/Route
 
 ### Routing GET Basique
 
+```php
 	Route::get('/', function()
 	{
 		echo 'Hello World';
 	});
+
+```
 
 vous pouvez également utiliser la Scoop fonction `get()`.
 
