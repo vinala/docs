@@ -1,3 +1,6 @@
+- [CRUD](#crud-create-read-update-delete)
+	- [Insert new data](#insert-new-data)
+
 ### CRUD (create, read, update, delete) 
 
 #### Insert new data
