@@ -9,17 +9,11 @@ To insert a new record in the database, simply create a new model instance, set 
 
 use Fiesta\Core\MVC\Controller\Controller;
 
-/**
-* class de controller ctrlCircle
-*/
-
 class ctrlPerson extends Controller
 {
 
 	/**
 	 * Insert newly created resource in storage.
-	 *
-	  * @return Response
 	 */
 
 	public static function insert($firstName,$lastName)
