@@ -1,3 +1,13 @@
+- [Installation](#installation)
+	- [Install Composer](#install-composer)
+	- [Install Fiesta](#install-fiesta)
+- [Apache](#apache)
+- [Fiesta Requirements](#fiesta-requirements)
+- [Documentation](#documentation)
+- [Development](#development)
+- [Versions](#versions)
+- [Licence](#licence)
+
 ## Fiesta
 
 Fiesta, a PHP Framework for web developers
@@ -10,7 +20,7 @@ Fiesta uses `Composer`, You can use Composer  to install Fiesta and its dependen
 
 First, download and install [Composer installer](https://getcomposer.org/)
 
-####Install Fiesta
+#### Install Fiesta
 
 You can install Fiesta via [Composer](https://getcomposer.org/) by running the command of Composer `create-project` in your terminal:
 
