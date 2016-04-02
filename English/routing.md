@@ -31,6 +31,7 @@ get('/', function()
 {
 	echo 'Hello World';
 });
+```
 
 #### Routing GET with static parameters
 
@@ -90,5 +91,15 @@ Route::get('/', array("just_saturday",function()
 ```
 
 ## Routes of Controller
+
+You can determine a set of routes to the static methods of a controller (index - show - add - ...)
+
+In this example, we create a client controller calls clientCntrl, to access this controller we use the client route:
+
+```php
+Route::resource('client', 'clientCntrl');
+```
+
+so if users request `www.exemple.com/index` the framework will run `clientCntrl::index()`.
 
 
