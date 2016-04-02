@@ -5,7 +5,7 @@
 - [Fiesta Requirements](#fiesta-requirements)
 - [Documentation](#documentation)
 - [Development](#development)
-- [Versions](#versions)
+- [Versions and Changeslog](#versions-and-changeslog)
 - [Licence](#licence)
 
 ## Fiesta
@@ -49,7 +49,7 @@ We are working on fiesta documentation for every release version, you can take l
 Fiesta is open to the contributions of developers, However developers may instead opt to use the next beta version in [next](https://github.com/fiesta-framework/Fiesta/tree/next) .
 
 
-### Versions
+### Versions and Changeslog
 
 you can find all Fiesta releases [here](https://github.com/fiesta-framework/Fiesta/releases) also the change log [here](https://github.com/fiesta-framework/Fiesta/blob/master/changes.md)
 

@@ -10,7 +10,7 @@ This is documentation of 3.1 release :
 	- [Fiesta Requirements](https://github.com/fiesta-framework/Docs/blob/3.1/docs/quickstart.md#fiesta-requirements)
 	- [Documentation](https://github.com/fiesta-framework/Docs/blob/3.1/docs/quickstart.md#documentation)
 	- [Development](https://github.com/fiesta-framework/Docs/blob/3.1/docs/quickstart.md#development)
-	- [Versions](https://github.com/fiesta-framework/Docs/blob/3.1/docs/quickstart.md#versions)
+	- [Versions and Changeslog](https://github.com/fiesta-framework/Docs/blob/3.1/docs/quickstart.md#versions-and-changeslog)
 	- [Licence](https://github.com/fiesta-framework/Docs/blob/3.1/docs/quickstart.md#licence)
 - [Routing](https://github.com/fiesta-framework/Docs/blob/3.1/docs/routing.md)
 	- [Routing](https://github.com/fiesta-framework/Docs/blob/3.1/docs/routing.md#routing)
