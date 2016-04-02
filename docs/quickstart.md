@@ -51,7 +51,7 @@ Fiesta is open to the contributions of developers, However developers may instea
 
 ### Versions
 
-[Fiesta Releases](https://github.com/fiesta-framework/Fiesta/releases)
+you can find all Fiesta releases [here](https://github.com/fiesta-framework/Fiesta/releases) also the change log [here](https://github.com/fiesta-framework/Fiesta/blob/master/changes.md)
 
 
 ### Licence
