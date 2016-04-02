@@ -1,3 +1,7 @@
+### Fiesta Docs
+This is documentation of 3.1 release : 
+
+#### Index
 - [Quick Start](https://github.com/fiesta-framework/Docs/blob/3.1/French/quickstart.md)
 	- [Installation](https://github.com/fiesta-framework/Docs/blob/3.1/French/quickstart.md#installation)
 		- [Installer Composer](https://github.com/fiesta-framework/Docs/blob/3.1/French/quickstart.md#installer-composer)
@@ -15,9 +19,9 @@
 	- [Routes de Controller](https://github.com/fiesta-framework/Docs/blob/3.1/French/routing.md#routes-de-controller)
 - [Views](https://github.com/fiesta-framework/Docs/blob/3.1/English/views.md)
 	- [Views](https://github.com/fiesta-framework/Docs/blob/3.1/English/views.md#views)
-		- [L'appel d'une view](https://github.com/fiesta-framework/Docs/blob/3.1/English/views.md#calling-a-view)
-		- [Passer des valeurs à une view](https://github.com/fiesta-framework/Docs/blob/3.1/English/views.md#pass-values-to-a-view)
-		- [Stockage d'une view](https://github.com/fiesta-framework/Docs/blob/3.1/English/views.md#storing-a-view)
+		- [Calling a view](https://github.com/fiesta-framework/Docs/blob/3.1/English/views.md#calling-a-view)
+		- [Pass values to a view](https://github.com/fiesta-framework/Docs/blob/3.1/English/views.md#pass-values-to-a-view)
+		- [Storing a view](https://github.com/fiesta-framework/Docs/blob/3.1/English/views.md#storing-a-view)
 	- [Smarty Templating](https://github.com/fiesta-framework/Docs/blob/3.1/English/views.md#smarty-templating)
 - [Models](https://github.com/fiesta-framework/Docs/blob/3.1/English/models.md)
 	- [CRUD](https://github.com/fiesta-framework/Docs/blob/3.1/English/models.md#crud-create-read-update-delete)
