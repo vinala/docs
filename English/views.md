@@ -78,7 +78,7 @@ Here is the view:
 <!-- View stored in app/views/home/hello.php -->
 <html>
 	<body>
-		<p> Hello <?php echo $firstName." ".$lastName ?> </p> <!-- result : Hello Youssef Hads -->
+		<p> Hello <?php echo $firstName." ".$lastName ?> </p> <!-- result : Hello Youssef Had -->
 	</body>
 </html>
 ```
