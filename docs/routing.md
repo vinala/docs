@@ -1,4 +1,4 @@
-[![alt return](https://raw.githubusercontent.com/fiesta-framework/Art/master/pics/arrows.png) Return](https://github.com/fiesta-framework/Docs/tree/3.1/)
+[![alt return](https://raw.githubusercontent.com/fiesta-framework/Art/master/pics/signs.png) Main Menu](https://github.com/fiesta-framework/Docs/tree/3.1/)
 
 - [Routing](#routing)
 	- [Routing GET](#routing-get)
