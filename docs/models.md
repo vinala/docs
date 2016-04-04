@@ -65,3 +65,32 @@ class ctrlPerson extends Controller
 ```
 
 In this example, we pass a parameter contains the primary key to show method and we pass it again to Person model instance, then we return the result
+
+#### Update and edit data
+
+To update a exist record in the database, simply get a new model instance by primary key, set attributes on the model, then use the `edit()` method:
+
+```php
+<?php
+
+use Fiesta\Core\MVC\Controller\Controller;
+
+class ctrlPerson extends Controller
+{
+
+	/**
+	 * Update the specified resource in storage.
+	 */
+
+	public static function insert($Id,$firstName,$lastName)
+	{
+		$person = new Person($Id);
+		$person->firstName=$firstName;
+		$person->lastName=$lastName;
+		return $person->edit();
+	}
+}
+
+```
+
+In this example, we use three parameters, the first one is the primary key and second and third one for first and last name, first we get data by model instance by primary key, and assign other parameters to firstName and lastName attribute of Person model instance,then we call edit method to update the record in database table.
