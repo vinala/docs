@@ -27,7 +27,7 @@ This is documentation of 3.1 release :
 		- [Storing a view](https://github.com/fiesta-framework/Docs/blob/3.1/docs/views.md#storing-a-view)
 	- [Smarty Templating](https://github.com/fiesta-framework/Docs/blob/3.1/docs/views.md#smarty-templating)
 - [Models](https://github.com/fiesta-framework/Docs/blob/3.1/docs/models.md)
-	- [CRUD](https://github.com/fiesta-framework/Docs/blob/3.1/docs/models.md#crud-create-read-update-delete)
+	- [CRUD (Create, Read, Update, Delete)](https://github.com/fiesta-framework/Docs/blob/3.1/docs/models.md#crud-create-read-update-delete)
 		- [Insert new data](https://github.com/fiesta-framework/Docs/blob/3.1/docs/models.md#insert-new-data)
 		- [Read and get data](https://github.com/fiesta-framework/Docs/blob/3.1/docs/models.md#read-and-get-data)
 		- [Update and edit data](https://github.com/fiesta-framework/Docs/blob/3.1/docs/models.md#update-and-edit-data)
