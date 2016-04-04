@@ -3,6 +3,8 @@
 - [CRUD](#crud-create-read-update-delete)
 	- [Insert new data](#insert-new-data)
 	- [Read and get data](#read-and-get-data)
+	- [Update and edit data](#rupdate-and-edit-data)
+
 
 	
 
