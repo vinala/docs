@@ -4,6 +4,8 @@
 	- [Insert new data](#insert-new-data)
 	- [Read and get data](#read-and-get-data)
 	- [Update and edit data](#update-and-edit-data)
+	- [Delete data](#delete-data)
+	
 
 
 	
@@ -70,7 +72,7 @@ In this example, we pass a parameter contains the primary key to show method and
 
 #### Update and edit data
 
-To update a exist record in the database, simply get a new model instance by primary key, set attributes on the model, then use the `edit()` method:
+To update an exist record in the database, simply get a new model instance by primary key, set attributes on the model, then use the `edit()` method:
 
 ```php
 <?php
@@ -96,3 +98,29 @@ class ctrlPerson extends Controller
 ```
 
 In this example, we use three parameters, the first one is the primary key and second and third one for first and last name, first we get data by model instance by primary key, and assign other parameters to firstName and lastName attribute of Person model instance,then we call edit method to update the record in database table.
+
+#### Delete data
+
+To delete an exist record in the database, simply get a new model instance by primary key,  then use the `delete()` method of the model:
+
+```php
+<?php
+
+use Fiesta\Core\MVC\Controller\Controller;
+
+class ctrlPerson extends Controller
+{
+	/**
+	 * Delete the specified resource in storage.
+	 */
+
+	public static function delete($id)
+	{
+		$person = new Person($id);
+		return $person->delete();
+	}
+}
+
+```
+
+In this example, we pass a parameter contains the primary key to delete method and we pass it again to Person model instance, then we call delete method to remove the record from database.

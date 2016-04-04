@@ -31,3 +31,4 @@ This is documentation of 3.1 release :
 		- [Insert new data](https://github.com/fiesta-framework/Docs/blob/3.1/docs/models.md#insert-new-data)
 		- [Read and get data](https://github.com/fiesta-framework/Docs/blob/3.1/docs/models.md#read-and-get-data)
 		- [Update and edit data](https://github.com/fiesta-framework/Docs/blob/3.1/docs/models.md#update-and-edit-data)
+		- [Delete data](https://github.com/fiesta-framework/Docs/blob/3.1/docs/models.md##delete-data)
