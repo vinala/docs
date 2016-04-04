@@ -30,4 +30,4 @@ This is documentation of 3.1 release :
 	- [CRUD](https://github.com/fiesta-framework/Docs/blob/3.1/docs/models.md#crud-create-read-update-delete)
 		- [Insert new data](https://github.com/fiesta-framework/Docs/blob/3.1/docs/models.md#insert-new-data)
 		- [Read and get data](https://github.com/fiesta-framework/Docs/blob/3.1/docs/models.md#read-and-get-data)
-		- [Update and edit data](https://github.com/fiesta-framework/Docs/blob/3.1/docs/models.md#rupdate-and-edit-data)
+		- [Update and edit data](https://github.com/fiesta-framework/Docs/blob/3.1/docs/models.md#update-and-edit-data)
