@@ -34,3 +34,4 @@ This is documentation of 3.1 release :
 		- [Delete data](https://github.com/fiesta-framework/Docs/blob/3.1/docs/models.md#delete-data)
 - [Schema](https://github.com/fiesta-framework/Docs/blob/3.1/docs/schema.md)
 	- [Introduction](https://github.com/fiesta-framework/Docs/blob/3.1/docs/schema.md#introduction)
+	
