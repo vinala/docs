@@ -4,11 +4,17 @@
 
 
 - [Info](#info)
+	- [Owner Infos](#owner-infos)
 - [Schema](#schema)
 	- [Genarate Schema](#Genarate-Schema)
 	- [Execute Schema](#execute-schema)
 	- [Rollback Schema](#rollback-schema)
 - [Links](#links)
+
+## Info
+### Owner Infos
+
+	$ php fiesta info:owner
 
 ## Schema
 
