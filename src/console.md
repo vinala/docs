@@ -12,20 +12,20 @@
 - [Links](#links)
 
 ## Info
-### Owner Infos
+#### Owner Infos
 
 	$ php fiesta info:owner
 
 ## Schema
 
-### Genarate Schema
+#### Genarate Schema
 
 	$ php fiesta schema:new
 
-### Execute Schema
+#### Execute Schema
 
 	$ php fiesta schema:exec
 
-### Rollback Schema
+#### Rollback Schema
 
 	$ php fiesta schema:rollback
