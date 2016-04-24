@@ -2,30 +2,40 @@
 
 [![alt return](https://raw.githubusercontent.com/fiesta-framework/Art/master/pics/signs.png) Main Menu](https://github.com/fiesta-framework/Docs/tree/3.1/#index)
 
+- [Introduction](#introduction)
+- [The framework commands](#info)
+	- [Info](#info)
+		- [Owner Infos](#owner-infos)
+	- [Schema](#schema)
+		- [Genarate Schema](#Genarate-Schema)
+		- [Execute Schema](#execute-schema)
+		- [Rollback Schema](#rollback-schema)
+	- [Links](#links)
 
-- [Info](#info)
-	- [Owner Infos](#owner-infos)
-- [Schema](#schema)
-	- [Genarate Schema](#Genarate-Schema)
-	- [Execute Schema](#execute-schema)
-	- [Rollback Schema](#rollback-schema)
-- [Links](#links)
+- [Creating user commands](#creating-user-commands)
 
-## Info
-#### Owner Infos
+## Introduction
 
-	$ php fiesta info:owner
+## The framework commands
 
-## Schema
+### Info
 
+	$ php pikia info
+
+### Schema
 #### Genarate Schema
 
-	$ php fiesta schema:new
+	$ php pikia make:schema
 
 #### Execute Schema
 
-	$ php fiesta schema:exec
+	$ php pikia exec:schema
 
 #### Rollback Schema
 
-	$ php fiesta schema:rollback
+	$ php pikia rollback:schema
+
+
+## Creating user commands
+
+	Pikia Framework allow's you to create your own commands
