@@ -38,4 +38,6 @@
 
 ## Creating user commands
 
-	Pikia Framework allow's you to create your own commands
+Pikia Framework allow's you to create your own console commands using the command `make:command` which will create command class in `app/console/commands`, the command require the name of the class and option for the key of the command:
+
+	php pikia make:command newPersonCommand --command=new:persone
