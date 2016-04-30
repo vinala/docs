@@ -54,40 +54,41 @@ In this exemple Pikia will create console command with the name of newPersonComm
 
 Once the command created in `app/console/commands`, you should set **key** and **description** properties of the class, the description will be shown in `list` command :
 
-	<?php
+```php
 
-	namespace Pikia\App\Console\Commands;
+namespace Pikia\App\Console\Commands;
 
-	use Pikia\Kernel\Console\Command\Commands;
+use Pikia\Kernel\Console\Command\Commands;
 
 
 
-	class newCommand extends Commands
+class newCommand extends Commands
+{
+	
+	/**
+	 * The key of the console command.
+	 *
+	 * @var string
+	 */
+	protected $key = 'greeting';
+
+
+	/**
+	 * The console command description.
+	 *
+	 * @var string
+	 */
+	protected $description = 'say hello to the world';
+
+
+	/**
+	 * Execute the console command.
+	 *
+	 * @return mixed
+	 */
+	public function handle()
 	{
-		
-		/**
-		 * The key of the console command.
-		 *
-		 * @var string
-		 */
-		protected $key = 'greeting';
-
-
-		/**
-		 * The console command description.
-		 *
-		 * @var string
-		 */
-		protected $description = 'say hello to the world';
-
-
-		/**
-		 * Execute the console command.
-		 *
-		 * @return mixed
-		 */
-		public function handle()
-		{
-			 $this->write("What's up!"); 
-		}
+		 $this->write("What's up!"); 
 	}
+}
+```
