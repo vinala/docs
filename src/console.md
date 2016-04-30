@@ -13,6 +13,11 @@
 	- [Links](#links)
 
 - [Creating user commands](#creating-user-commands)
+	- [Generating commands](#generating-commands)
+	- [Command structure](#command-structure)
+	- [Input / Output](#input--output)
+		- [Inputs](#inputs)
+
 
 ## Introduction
 
