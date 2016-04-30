@@ -167,5 +167,5 @@ protected $key = 'say:hello {name} {--sex=men}';
 You may give a descriptions to input arguments and options by separating the parameter from the description using a colon between two spaces ` : `
 
 ```php
-protected $key = 'say:hello {firstName : The first name} {lastName? : The last name} {--sex : The sex of the person}';
+protected $key = 'say:hello {name : The first name} {nickName? : The last name} {--sex : The sex of the person}';
 ```
