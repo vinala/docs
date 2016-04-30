@@ -52,7 +52,9 @@ In this exemple Pikia will create console command with the name of newPersonComm
 
 ### Command Structure
 
-Once the command created in `app/console/commands`, you should set **key** and **description** properties of the class, the description will be shown in `list` command :
+Once the command created in `app/console/commands`, you should set **key** and **description** properties of the class, the description will be shown in `list` command.
+
+The method `handle()` will be called once the user uses the command, you should put the script on the command inside this method
 
 ```php
 
@@ -92,3 +94,4 @@ class newCommand extends Commands
 	}
 }
 ```
+
