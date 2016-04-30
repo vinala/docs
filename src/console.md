@@ -127,3 +127,7 @@ Any command created could be need some information from user, they called **inpu
 
 In this example, the command name is **say:hello** and the argument is **name**
 
+You may also make optional arguments : 
+	
+	email:send {user?}
+
