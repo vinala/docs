@@ -133,12 +133,16 @@ Any command created could be need some information from user, they called **inpu
 In this example, the command name is **say:hello** and the argument is **name**
 
 You may also make optional arguments : 
-	
-	say:hello {user?}
+
+```php
+protected $key = 'say:hello {user?}';
+```
 
 Besides arguments, Pikia support another type of inputs, Options are prefixed by `--` like this :
 
-	say:hello {user} {--man}
+```php
+protected $key = 'say:hello {user} {--man}';
+```
 
 In this example, the --man option may be specified when calling the Pikia command. If the --man option is passed, the value of the option will be true. Otherwise, the value will be false:
 
@@ -146,7 +150,9 @@ In this example, the --man option may be specified when calling the Pikia comman
 
 You may also specify that the option should be assigned a value by the user, to do that you should make after the option `=` sign :
 
-	protected $key = 'say:hello {name} {--sex=}';
+```php
+protected $key = 'say:hello {name} {--sex=}';
+```
 
 In this example, the user may pass a value for the option like so:
 
@@ -154,8 +160,12 @@ In this example, the user may pass a value for the option like so:
 
 You may also assign default values to options:
 
-	protected $key = 'say:hello {name} {--sex=men}';
+```php
+protected $key = 'say:hello {name} {--sex=men}';
+```
 
 You may give a descriptions to input arguments and options by separating the parameter from the description using a colon between two spaces ` : `
 
+```php
 protected $key = 'say:hello {firstName : The first name} {lastName? : The last name} {--sex : The sex of the person}';
+```
