@@ -1,6 +1,6 @@
 # Quick Start
 
-[![alt return](https://raw.githubusercontent.com/fiesta-framework/Art/master/pics/signs.png) Main Menu](https://github.com/fiesta-framework/Docs/tree/3.1/#index)
+[![alt return](https://raw.githubusercontent.com/fiesta-framework/Art/master/Resources/signs.png) Main Menu](https://github.com/fiesta-framework/Docs/tree/3.1/#index)
 
 - [Installation](#installation)
 	- [Install Composer](#install-composer)
