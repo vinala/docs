@@ -62,8 +62,6 @@ namespace Pikia\App\Console\Commands;
 
 use Pikia\Kernel\Console\Command\Commands;
 
-
-
 class newCommand extends Commands
 {
 	
@@ -72,7 +70,7 @@ class newCommand extends Commands
 	 *
 	 * @var string
 	 */
-	protected $key = 'greeting';
+	protected $key = 'say:hello {name} {nickname?}';
 
 
 	/**
@@ -80,7 +78,7 @@ class newCommand extends Commands
 	 *
 	 * @var string
 	 */
-	protected $description = 'say hello to the world';
+	protected $description = 'say hello to someone';
 
 
 	/**
@@ -90,8 +88,15 @@ class newCommand extends Commands
 	 */
 	public function handle()
 	{
-		 $this->write("What's up!"); 
+		$name = $this->argument("name");
+		$nickname = $this->argument("nickname");
+		//
+		$name = \Strings::firstUpper($name);
+		$nickname = \Strings::firstUpper($nickname);
+		//
+		$this->write("Hello ".$name." ".$nickname); 
 	}
 }
 ```
 
+In this example, notice that the command is inside the namespace `Pikia\App\Console\Commands`, so any call of any class or method outside of this namespace should be preceded by `\` or you can use the namespace top of the file by using `use`.
