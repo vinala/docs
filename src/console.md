@@ -103,7 +103,7 @@ class newCommand extends Commands
 }
 ```
 
-In this example, notice that the command is inside the namespace `Pikia\App\Console\Commands`, so any call of any class or method outside of this namespace should be preceded by `\` or you can use the namespace top of the file by using `use`.
+In this example, notice that the command is inside the namespace `Pikia\App\Console\Commands`, so any call of any class or method outside of this namespace should be preceded by `\` sign or you can use the namespace top of the file by using `use`.
 
 The call of this command will be like that :
 
@@ -134,5 +134,28 @@ In this example, the command name is **say:hello** and the argument is **name**
 
 You may also make optional arguments : 
 	
-	email:send {user?}
+	say:hello {user?}
 
+Besides arguments, Pikia support another type of inputs, Options are prefixed by `--` like this :
+
+	say:hello {user} {--man}
+
+In this example, the --man option may be specified when calling the Pikia command. If the --man option is passed, the value of the option will be true. Otherwise, the value will be false:
+
+	$ php pikia say:hello youssef --man
+
+You may also specify that the option should be assigned a value by the user, to do that you should make after the option `=` sign :
+
+	protected $key = 'say:hello {name} {--sex=}';
+
+In this example, the user may pass a value for the option like so:
+
+	php artisan say:hello katherine --sex=women
+
+You may also assign default values to options:
+
+	protected $key = 'say:hello {name} {--sex=men}';
+
+You may give a descriptions to input arguments and options by separating the parameter from the description using a colon between two spaces ` : `
+
+protected $key = 'say:hello {firstName : The first name} {lastName? : The last name} {--sex : The sex of the person}';
