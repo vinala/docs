@@ -17,6 +17,7 @@
 	- [Command structure](#command-structure)
 	- [Input / Output](#input--output)
 		- [Inputs](#inputs)
+		- [Retrieving inputs](#retrieving-inputs)
 
 
 ## Introduction
