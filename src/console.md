@@ -261,3 +261,7 @@ public function handle()
 ```
 
 ### Question Helper
+
+Pikia allows you to get information, passwords, response of questions, while the command executing.
+
+
