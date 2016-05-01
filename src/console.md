@@ -28,7 +28,6 @@
 		- [Asking the user for hidden information](#asking-the-user-for-hidden-information)
 		
 
-
 ## Introduction
 
 ## The framework commands
