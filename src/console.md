@@ -169,3 +169,37 @@ You may give a descriptions to input arguments and options by separating the par
 ```php
 protected $key = 'say:hello {name : The first name} {nickName? : The last name} {--sex : The sex of the person}';
 ```
+
+##### Retrieving inputs
+
+While your command is executing, you will obviously need to access the values for the arguments and options accepted by your command. for that, you may use the `argument` and `option` methods:
+
+To retrieve the value of an argument, use the `argument()` method:
+
+```php
+/**
+ * Execute the console command.
+ *
+ * @return mixed
+ */
+public function handle()
+{
+	$name = $this->argument("name");
+}
+```
+
+Options may be retrieved just as easily as arguments using the `option()` method:
+
+```php
+/**
+ * Execute the console command.
+ *
+ * @return mixed
+ */
+public function handle()
+{
+	$day = $this->option("day");
+}
+```
+
+
