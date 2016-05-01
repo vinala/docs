@@ -210,4 +210,26 @@ this has important influence into the output type.
 
 To do so, you may edit the `terminal` property inside the file `config/console`, and set **cmd** for Windows cmd or **bash**.
 
+##### Writing in input
+
+To send output to the console, use the `write`, `line`, `info`, `comment`, `question` and `error` methods. Each of these methods will use the appropriate ANSI colors for their purpose.
+
+To write in the same line use the method `write()`, to write in new line use the method `line()`:
+
+```php
+/**
+ * Execute the console command.
+ *
+ * @return mixed
+ */
+public function handle()
+{
+	// Write in new line...
+	$this->line("this is new line");
+
+	// Write in same line...
+	$this->write("this is same line");
+}
+```
+
 ### Question Helper

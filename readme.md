@@ -43,3 +43,4 @@ This is documentation of 3.2 release :
 		- [Rollback Schema](https://github.com/fiesta-framework/Docs/blob/3.2/src/console.md#rollback-schema)
 	- [Links](https://github.com/fiesta-framework/Docs/blob/3.2/src/console.md#links)
 	
+	
