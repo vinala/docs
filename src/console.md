@@ -17,7 +17,11 @@
 	- [Command structure](#command-structure)
 	- [Input / Output](#input--output)
 		- [Inputs](#inputs)
-		- [Retrieving inputs](#retrieving-inputs)
+			- [Retrieving inputs](#retrieving-inputs)
+		- [Output](#output)
+			- [Writing in console](#writing-in-console)
+	- [Question Helper](#question-helper)
+	
 
 
 ## Introduction
@@ -210,7 +214,7 @@ this has important influence into the output type.
 
 To do so, you may edit the `terminal` property inside the file `config/console`, and set **cmd** for Windows cmd or **bash**.
 
-##### Writing in input
+##### Writing in console
 
 To send output to the console, use the `write`, `line`, `info`, `comment`, `question` and `error` methods. Each of these methods will use the appropriate ANSI colors for their purpose.
 
