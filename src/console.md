@@ -323,6 +323,6 @@ makes sure that the user can only enter a valid string from a predefined list:
  */
 public function handle()
 {
-	$color = $this->ask("What's your favorite color ?" , ['blue' , 'red' , 'green' , 'yellow']);
+	$color = $this->choice("What's your favorite color ?" , ['blue' , 'red' , 'green' , 'yellow']);
 }
 ```
