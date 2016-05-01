@@ -9,7 +9,6 @@
 	- [Delete data](#delete-data)
 	
 
-
 ### CRUD (create, read, update, delete) 
 
 #### Insert new data
