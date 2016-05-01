@@ -232,4 +232,28 @@ public function handle()
 }
 ```
 
+Besides these methods, you can display info and comments questions and errors, these methods change the color of the output:
+
+```php
+/**
+ * Execute the console command.
+ *
+ * @return mixed
+ */
+public function handle()
+{
+	// display in green
+	$this->info("this is info");
+
+	// display in yellow
+	$this->comment("this is comment");
+
+	// display in cyan
+	$this->question("this is question");
+
+	// display in red
+	$this->error("this is error");
+}
+```
+
 ### Question Helper
