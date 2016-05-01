@@ -118,6 +118,17 @@ Or like that :
 
 	$ php pikia say:hello youssef had
 
+### Shortcut Syntax
+
+You do not have to type out the full command names. You can just type the shortest **unambiguous** name to run a command. So if there are non-clashing commands, then you can run **help** like this:
+
+	$ php pikia h
+
+If you have commands using : to namespace commands then you just have to type the shortest unambiguous text for each part. If you have created the say:hello as shown in Pikia documentation then you can run it with:
+
+	$ php pikia s:h Youssef
+
+If you enter a short command that's ambiguous (there are more than one command that match), then no command will be run and some suggestions of the possible commands to choose from will be output.
 
 
 ### Input / Output
