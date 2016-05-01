@@ -310,4 +310,19 @@ public function handle()
 
 In this example, **ask()** method will return the name of user, otherwise you can give default answer if user ignore the question by passing a name in second parameter.
 
-#### Asking the user for information
+#### Asking the user for information with a list of choices
+
+If you have a predefined set of answers the user can choose from, you could use a `choice` method which
+makes sure that the user can only enter a valid string from a predefined list:
+
+```php
+/**
+ * Execute the console command.
+ *
+ * @return mixed
+ */
+public function handle()
+{
+	$color = $this->ask("What's your favorite color ?" , ['blue' , 'red' , 'green' , 'yellow']);
+}
+```
