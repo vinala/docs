@@ -15,12 +15,21 @@
 - [Creating user commands](#creating-user-commands)
 	- [Generating commands](#generating-commands)
 	- [Command structure](#command-structure)
+	- [Shortcut Syntax](#shortcut-syntax)
 	- [Input / Output](#input--output)
 		- [Inputs](#inputs)
 			- [Retrieving inputs](#retrieving-inputs)
 		- [Output](#output)
 			- [Writing in console](#writing-in-console)
 	- [Question Helper](#question-helper)
+		- [Asking the user for confirmation](#asking-the-user-for-confirmation)
+		- [Asking the user for information](#asking-the-user-for-information)
+		- [Asking the user for information with a list of choices](#asking-the-user-for-information-with-a-list-of-choices)
+		- [Asking the user for hidden information](#asking-the-user-for-hidden-information)
+		
+
+
+
 	
 
 
