@@ -27,7 +27,6 @@
 		- [Asking the user for information with a list of choices](#asking-the-user-for-information-with-a-list-of-choices)
 		- [Asking the user for hidden information](#asking-the-user-for-hidden-information)
 		
-
 ## Introduction
 
 ## The framework commands
