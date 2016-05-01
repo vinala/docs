@@ -8,7 +8,6 @@
 	- [Storing a view](#storing-a-view)
 - [Smarty Templating](#smarty-templating)
 
-
 ## Views
 
 Views consist of your application HTML and PHP in an elegant way that manipulates the controllers in your application, all views are stored in the directory `app/views`.
