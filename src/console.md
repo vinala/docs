@@ -208,4 +208,6 @@ public function handle()
 Before use Pikia Console you should specify your terminal, whether you use the cmd Windows terminal or the bash UNIX terminal, 
 this has important influence into the output type.
 
+To do so, you may edit the `terminal` property inside the file `config/console`, and set **cmd** for Windows cmd or **bash**.
+
 ### Question Helper
