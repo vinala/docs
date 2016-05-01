@@ -264,7 +264,7 @@ public function handle()
 
 Pikia allows you to get information, passwords, response of questions, while the command executing.
 
-#### Asking the User for Confirmation
+#### Asking the user for confirmation
 
 Suppose you want to confirm an action before actually executing it, `confirm` method will help you this :
 
@@ -285,4 +285,29 @@ public function handle()
 
 ```
 
-In this example, **confirm()** method will return true if user tape 'y' or 'yes' else will return false, otherwise you can give default answer if user ignore the confirmation by passing true or false in second parameter.
+In this example, **confirm()** method will return true if user tape 'y' or 'yes' else 'n' or 'no' will return false, otherwise you can give default answer if user ignore the confirmation by passing true or false in second parameter.
+
+#### Asking the user for information
+
+You can also ask a question with more than a simple yes/no answer. For instance, if you want to know a
+user name, you can add this to your command:
+
+```php
+/**
+ * Execute the console command.
+ *
+ * @return mixed
+ */
+public function handle()
+{
+	// simple question
+	$name = $this->ask("What's your name ?");
+
+	// question with default value of Joe
+	$name = $this->ask("What's your name ?" , "Youssef");
+}
+```
+
+In this example, **ask()** method will return the name of user, otherwise you can give default answer if user ignore the question by passing a name in second parameter.
+
+#### Asking the user for information
