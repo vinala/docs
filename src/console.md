@@ -326,3 +326,19 @@ public function handle()
 	$color = $this->choice("What's your favorite color ?" , ['blue' , 'red' , 'green' , 'yellow']);
 }
 ```
+
+#### Asking the user for hidden information
+
+The `hidden` method is similar to ask, but the user's input will not be visible to them as they type in the console. This method is useful when asking for sensitive information such as a password : 
+
+```php
+/**
+ * Execute the console command.
+ *
+ * @return mixed
+ */
+public function handle()
+{
+	$color = $this->hidden("Please enter your password');
+}
+```
