@@ -21,6 +21,7 @@
 			- [Retrieving inputs](#retrieving-inputs)
 		- [Output](#output)
 			- [Writing in console](#writing-in-console)
+			- [Display Table](#display-table)
 	- [Question Helper](#question-helper)
 		- [Asking the user for confirmation](#asking-the-user-for-confirmation)
 		- [Asking the user for information](#asking-the-user-for-information)

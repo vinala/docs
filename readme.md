@@ -51,6 +51,7 @@ This is documentation of 3.2 release :
 			- [Retrieving inputs](https://github.com/fiesta-framework/Docs/blob/3.2/src/console.md#retrieving-inputs)
 		- [Output](https://github.com/fiesta-framework/Docs/blob/3.2/src/console.md#output)
 			- [Writing in console](https://github.com/fiesta-framework/Docs/blob/3.2/src/console.md#writing-in-console)
+			- [Display Table](https://github.com/fiesta-framework/Docs/blob/3.2/src/console.md#display-table)
 	- [Question Helper](https://github.com/fiesta-framework/Docs/blob/3.2/src/console.md#question-helper)
 		- [Asking the user for confirmation](https://github.com/fiesta-framework/Docs/blob/3.2/src/console.md#asking-the-user-for-confirmation)
 		- [Asking the user for information](https://github.com/fiesta-framework/Docs/blob/3.2/src/console.md#asking-the-user-for-information)
