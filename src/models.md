@@ -1,6 +1,6 @@
 # Models
 
-[![alt return](https://raw.githubusercontent.com/fiesta-framework/Art/master/Resources/signs.png) Main Menu](https://github.com/fiesta-framework/Docs/tree/3.1/#index)
+[![alt return](https://raw.githubusercontent.com/fiesta-framework/Art/master/Resources/signs.png) Main Menu](https://github.com/fiesta-framework/Docs/tree/3.2/#index)
 
 - [CRUD](#crud-create-read-update-delete)
 	- [Insert new data](#insert-new-data)
