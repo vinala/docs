@@ -273,6 +273,23 @@ public function handle()
 	$this->error("this is error");
 }
 ```
+##### Display Table
+
+The `table` method makes it easy to correctly format multiple rows / columns of data. Just pass in the headers and rows to the method. The width and height will be dynamically calculated based on the given data :
+
+```php
+public function handle()
+{
+	$this->table( 
+		['Name','Age','Country'],
+        [
+            ['Youssef', '27', 'Sweden'],
+            ['Ayoub', '19', 'Morocco']
+        ]
+	);
+}
+```
+
 
 ### Question Helper
 
