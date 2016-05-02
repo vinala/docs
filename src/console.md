@@ -175,7 +175,7 @@ protected $key = 'say:hello {name} {--sex=}';
 
 In this example, the user may pass a value for the option like so:
 
-	php artisan say:hello katherine --sex=women
+	php pikia say:hello katherine --sex=women
 
 You may also assign default values to options:
 
