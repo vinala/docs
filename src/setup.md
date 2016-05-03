@@ -1,5 +1,7 @@
 # Setup
 
+[![alt return](https://raw.githubusercontent.com/fiesta-framework/Art/master/Resources/signs.png) Main Menu](https://github.com/fiesta-framework/Docs/tree/3.2/#index)
+
 - [General](#general)
 - [Database](#database)
 - [Security](#security)
