@@ -12,7 +12,7 @@ This is documentation of 3.2 release :
 	- [Development](https://github.com/fiesta-framework/Docs/blob/3.2/src/quickstart.md#development)
 	- [Versions and Changelog](https://github.com/fiesta-framework/Docs/blob/3.2/src/quickstart.md#versions-and-changelog)
 	- [Licence](https://github.com/fiesta-framework/Docs/blob/3.2/src/quickstart.md#licence)
-- [Setup](https://github.com/fiesta-framework/Docs/blob/3.2/src/quickstart.md#setup)
+- [Setup](https://github.com/fiesta-framework/Docs/blob/3.2/src/setup.md#setup)
 	- [General](https://github.com/fiesta-framework/Docs/blob/3.2/src/setup.md#general)
 	- [Database](https://github.com/fiesta-framework/Docs/blob/3.2/src/setup.md#database)
 	- [Security](https://github.com/fiesta-framework/Docs/blob/3.2/src/setup.md#security)
