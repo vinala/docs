@@ -63,5 +63,8 @@ This is documentation of 3.2 release :
 		- [Asking the user for information](https://github.com/fiesta-framework/Docs/blob/3.2/src/console.md#asking-the-user-for-information)
 		- [Asking the user for information with a list of choices](https://github.com/fiesta-framework/Docs/blob/3.2/src/console.md#asking-the-user-for-information-with-a-list-of-choices)
 		- [Asking the user for hidden information](https://github.com/fiesta-framework/Docs/blob/3.2/src/console.md#asking-the-user-for-hidden-information)
+- [Plugins](https://github.com/fiesta-framework/Docs/blob/3.2/src/plugins.md#plugins)
+	- [Introduction](https://github.com/fiesta-framework/Docs/blob/3.2/src/plugins.md#introduction)
+	- [.info file structure](https://github.com/fiesta-framework/Docs/blob/3.2/src/plugins.md#info-file-structure)
 	
 	
