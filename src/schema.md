@@ -12,9 +12,11 @@ The Fiesta Schema provides tools to create and update database tables,and also e
 
 ## Generating Schema
 
-| Function | Arguments                                                                                                         | Description                                                                                                                                                          |
-|----------|-------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| inc()    | $column : colmun name                                                                                             | adding incrementing integer ID column                                                                                                                                |
-| string() | $column : colmun name<br>$length : data lenght [optional]<br>$default: default value [optional] | adding string column, $column is colmun name.<br>you can pass in second argument the column size by default its 255, also you can pass default value in third argument. |
-| int()    | $column : colmun name  $length: data lenght [optional]                                                            | adding integer column, $column is colmun name, you can pass in second argument the column size by default its 11.                                                    |
+**visite www.tablesgenerator.com/markdown_tables
+
+| Function | Arguments | Description |
+|----------|----------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| inc() | $column : colmun name | adding incrementing integer ID column |
+| string() | $column : colmun name<br>$length : data lenght [optional]<br>$default: default value [optional] | adding string column, $column is colmun name, you can pass in second argument the column size by default its 255, also you can pass default value in third argument. |
+| int() | $column : colmun name   $length: data lenght [optional] | adding integer column, $column is colmun name, you can pass in second argument the column size by default its 11. |
 
