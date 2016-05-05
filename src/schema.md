@@ -12,9 +12,9 @@ The Fiesta Schema provides tools to create and update database tables,and also e
 
 ## Generating Schema
 
-| Tables   |      Are      |  Cool |
-|----------|:-------------:|------:|
-| col 1 is |  left-aligned | $1600 |
-| col 2 is |    centered   |   $12 |
-| col 3 is | right-aligned |    $1 |
+| Function                                                | Description                                                                                                                                                          |
+|---------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| $table->inc($column)                                    | adding incrementing integer ID column                                                                                                                                |
+| $table->string($column,$length = 255, $default = null ) | adding string column, $column is colmun name, you can pass in second argument the column size by default its 255, also you can pass default value in third argument. |
+| $table->int($nom,$length=11)                            | adding integer column, $column is colmun name, you can pass in second argument the column size by default its 11.                                                    |
     
