@@ -1,4 +1,4 @@
-# Console
+# Lumos
 
 [![alt return](https://raw.githubusercontent.com/fiesta-framework/Art/master/Resources/signs.png) Main Menu](https://github.com/fiesta-framework/Docs/tree/3.2/#index)
 
@@ -29,6 +29,10 @@
 		- [Asking the user for hidden information](#asking-the-user-for-hidden-information)
 		
 ## Introduction
+
+Lumos (named after Harry Potter spell) is a command-lien interface shipped with Pikia, Lumos can create any of Pikia’s basic ingredients for your use while developing your application. It is driven by the powerful Symfony Console component. To view a list of all available Lumos commands, you may use the `list` command:
+
+	$ php lumos info
 
 ## The framework commands
 
