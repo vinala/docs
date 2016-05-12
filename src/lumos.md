@@ -38,35 +38,35 @@ Lumos (named after Harry Potter spell) is a command-lien interface shipped with 
 
 ### Info
 
-	$ php pikia info
+	$ php lumos info
 
 ### Schema
 #### Genarate Schema
 
-	$ php pikia make:schema
+	$ php lumos make:schema
 
 #### Execute Schema
 
-	$ php pikia exec:schema
+	$ php lumos exec:schema
 
 #### Rollback Schema
 
-	$ php pikia rollback:schema
+	$ php lumos rollback:schema
 
 
 ## Creating user commands
 
 ### Generating commands
 
-Pikia Framework allow's you to create your own console commands using the command `make:command` which will create command class in `app/console/commands`, the command require the name of the class and option for the key of the command:
+Pikia Framework allow's you to create your own Lumos commands using the command `make:command` which will create command class in `app/console/commands`, the command require the name of the class and option for the key of the command:
 
-	php pikia make:command newPersonCommand
+	php lumos make:command newPersonCommand
 
-In this exemple Pikia will create console command with the name of newPersonCommand and a key with the default value 'greeting'.
+In this exemple Pikia will create Lumos command with the name of newPersonCommand and a key with the default value 'greeting'.
 
-	php pikia make:command newPersonCommand --command=new:persone
+	php lumos make:command newPersonCommand --command=new:persone
 
-In this exemple Pikia will create console command with the name of newPersonCommand and the key willhave the value 'new:persone'.
+In this exemple Pikia will create Lumos command with the name of newPersonCommand and the key willhave the value 'new:persone'.
 
 ### Command Structure
 
@@ -120,21 +120,21 @@ In this example, notice that the command is inside the namespace `Pikia\App\Cons
 
 The call of this command will be like that :
 
-	$ php pikia say:hello youssef
+	$ php lumos say:hello youssef
 
 Or like that : 
 
-	$ php pikia say:hello youssef had
+	$ php lumos say:hello youssef had
 
 ### Shortcut Syntax
 
 You do not have to type out the full command names. You can just type the shortest **unambiguous** name to run a command. So if there are non-clashing commands, then you can run **help** like this:
 
-	$ php pikia h
+	$ php lumos h
 
-If you have commands using : to namespace commands then you just have to type the shortest unambiguous text for each part. If you have created the say:hello as shown in Pikia documentation then you can run it with:
+If you have commands using : to namespace commands then you just have to type the shortest unambiguous text for each part. If you have created the say:hello as shown in lumos documentation then you can run it with:
 
-	$ php pikia s:h Youssef
+	$ php lumos s:h Youssef
 
 If you enter a short command that's ambiguous (there are more than one command that match), then no command will be run and some suggestions of the possible commands to choose from will be output.
 
@@ -168,9 +168,9 @@ Besides arguments, Pikia support another type of inputs, Options are prefixed by
 protected $key = 'say:hello {user} {--man}';
 ```
 
-In this example, the --man option may be specified when calling the Pikia command. If the --man option is passed, the value of the option will be true. Otherwise, the value will be false:
+In this example, the --man option may be specified when calling the Lumos command. If the --man option is passed, the value of the option will be true. Otherwise, the value will be false:
 
-	$ php pikia say:hello youssef --man
+	$ php lumos say:hello youssef --man
 
 You may also specify that the option should be assigned a value by the user, to do that you should make after the option `=` sign :
 
@@ -180,7 +180,7 @@ protected $key = 'say:hello {name} {--sex=}';
 
 In this example, the user may pass a value for the option like so:
 
-	php pikia say:hello katherine --sex=women
+	php lumos say:hello katherine --sex=women
 
 You may also assign default values to options:
 
@@ -228,7 +228,7 @@ public function handle()
 
 #### Output
 
-Before use Pikia Console you should specify your terminal, whether you use the cmd Windows terminal or the bash UNIX terminal, 
+Before use Lumos you should specify your terminal, whether you use the cmd Windows terminal or the bash UNIX terminal, 
 this has important influence into the output type.
 
 To do so, you may edit the `terminal` property inside the file `config/console`, and set **cmd** for Windows cmd or **bash**.
@@ -298,7 +298,7 @@ public function handle()
 
 ### Question Helper
 
-Pikia allows you to get information, passwords, response of questions, while the command executing.
+Lumos allows you to get information, passwords, response of questions, while the command executing.
 
 #### Asking the user for confirmation
 
