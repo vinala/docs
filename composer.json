@@ -1,0 +1,11 @@
+{
+    "name": "pikia/docs",
+    "type": "pikia-docs",
+    "require": {
+        "php": ">=5.3.0",
+        "pikia/installers": "*"
+    },
+    "extra": {
+        "installer-name": "docs"
+    }
+}
