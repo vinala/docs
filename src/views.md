@@ -1,6 +1,6 @@
 # Views
 
-[![alt return](https://raw.githubusercontent.com/fiesta-framework/Art/master/Resources/signs.png) Main Menu](https://gitlab.com/lighty/Docstree/3.2/#index)
+[![alt return](https://raw.githubusercontent.com/fiesta-framework/Art/master/Resources/signs.png) Main Menu](https://gitlab.com/lighty/Docs/tree/3.2/#index)
 
 - [Views](#views)
 	- [Calling a view](#calling-a-view)
