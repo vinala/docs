@@ -75,6 +75,8 @@ Once the command created in `app/console/commands`, you should set **key** and *
 The method `handle()` will be called once the user uses the command, you should put the script on the command inside this method :
 
 ```php
+<?php 
+
 namespace Lighty\App\Console\Commands;
 
 use Lighty\Kernel\Console\Command\Commands;
@@ -146,12 +148,14 @@ If you enter a short command that's ambiguous (there are more than one command t
 Any command created could be need some information from user, they called **inputs** it can be arguments or options, to define the inputs needed use `key` property on command class, The `key` property allows you to define the command name, arguments, and options.
 
 ```php
-	/**
-	 * The key of the console command.
-	 *
-	 * @var string
-	 */
-	protected $key = 'say:hello {name}';
+<?php 
+
+/**
+ * The key of the console command.
+ *
+ * @var string
+ */
+protected $key = 'say:hello {name}';
 ```
 
 In this example, the command name is **say:hello** and the argument is **name**
@@ -159,12 +163,16 @@ In this example, the command name is **say:hello** and the argument is **name**
 You may also make optional arguments : 
 
 ```php
+<?php 
+
 protected $key = 'say:hello {user?}';
 ```
 
 Besides arguments, Lighty support another type of inputs, Options are prefixed by `--` like this :
 
 ```php
+<?php 
+
 protected $key = 'say:hello {user} {--man}';
 ```
 
@@ -175,6 +183,8 @@ In this example, the --man option may be specified when calling the Lumos comman
 You may also specify that the option should be assigned a value by the user, to do that you should make after the option `=` sign :
 
 ```php
+<?php 
+
 protected $key = 'say:hello {name} {--sex=}';
 ```
 
@@ -185,12 +195,16 @@ In this example, the user may pass a value for the option like so:
 You may also assign default values to options:
 
 ```php
+<?php 
+
 protected $key = 'say:hello {name} {--sex=men}';
 ```
 
 You may give a descriptions to input arguments and options by separating the parameter from the description using a colon between two spaces ` : `
 
 ```php
+<?php 
+
 protected $key = 'say:hello {name : The first name} {nickName? : The last name} {--sex : The sex of the person}';
 ```
 
@@ -217,6 +231,8 @@ public function handle()
 Options may be retrieved just as easily as arguments using the `option()` method:
 
 ```php
+<?php 
+
 /**
  * Execute the console command.
  *
@@ -242,6 +258,8 @@ To send output to the console, use the `write`, `line`, `info`, `comment`, `ques
 To write in the same line use the method `write()`, to write in new line use the method `line()`:
 
 ```php
+<?php 
+
 /**
  * Execute the console command.
  *
@@ -260,6 +278,8 @@ public function handle()
 Besides these methods, you can display info and comments questions and errors, these methods change the color of the output:
 
 ```php
+<?php 
+
 /**
  * Execute the console command.
  *
@@ -285,6 +305,8 @@ public function handle()
 The `table` method makes it easy to correctly format multiple rows / columns of data. Just pass in the headers and rows to the method. The width and height will be dynamically calculated based on the given data :
 
 ```php
+<?php 
+
 public function handle()
 {
 	$this->table( 
@@ -307,6 +329,8 @@ Lumos allows you to get information, passwords, response of questions, while the
 Suppose you want to confirm an action before actually executing it, `confirm` method will help you this :
 
 ```php
+<?php 
+
 /**
  * Execute the console command.
  *
@@ -331,6 +355,8 @@ You can also ask a question with more than a simple yes/no answer. For instance,
 user name, you can add this to your command:
 
 ```php
+<?php 
+
 /**
  * Execute the console command.
  *
@@ -354,6 +380,8 @@ If you have a predefined set of answers the user can choose from, you could use 
 makes sure that the user can only enter a valid string from a predefined list:
 
 ```php
+<?php 
+
 /**
  * Execute the console command.
  *
@@ -370,6 +398,8 @@ public function handle()
 The `hidden` method is similar to ask, but the user's input will not be visible to them as they type in the console. This method is useful when asking for sensitive information such as a password : 
 
 ```php
+<?php 
+
 /**
  * Execute the console command.
  *
