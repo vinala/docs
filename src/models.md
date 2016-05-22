@@ -17,7 +17,7 @@ To insert a new record in the database, simply create a new model instance, set 
 ```php
 <?php
 
-use Fiesta\Core\MVC\Controller\Controller;
+use Lighty\Core\MVC\Controller\Controller;
 
 class ctrlPerson extends Controller
 {
@@ -48,7 +48,7 @@ To get the data using the primary key, you can pass parameter contains a primary
 ```php
 <?php
 
-use Fiesta\Core\MVC\Controller\Controller;
+use Lighty\Core\MVC\Controller\Controller;
 
 class ctrlPerson extends Controller
 {
@@ -75,7 +75,7 @@ To update an exist record in the database, simply get a new model instance by pr
 ```php
 <?php
 
-use Fiesta\Core\MVC\Controller\Controller;
+use Lighty\Core\MVC\Controller\Controller;
 
 class ctrlPerson extends Controller
 {
@@ -104,7 +104,7 @@ To delete an exist record in the database, simply get a new model instance by pr
 ```php
 <?php
 
-use Fiesta\Core\MVC\Controller\Controller;
+use Lighty\Core\MVC\Controller\Controller;
 
 class ctrlPerson extends Controller
 {

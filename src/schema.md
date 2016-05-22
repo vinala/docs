@@ -8,7 +8,7 @@
 
 Schema are like making historic for your database allowing you to see all changes you made to the database structure, and also make the database structure more clearly for a team work.
 
-The Fiesta Schema provides tools to create and update database tables,and also execute or cancel operations made on the database.
+The Lighty Schema provides tools to create and update database tables,and also execute or cancel operations made on the database.
 
 ## Generating Schema
 

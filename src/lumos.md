@@ -30,7 +30,7 @@
 		
 ## Introduction
 
-Lumos (named after Harry Potter spell) is a command-lien interface shipped with Pikia, Lumos can create any of Pikia’s basic ingredients for your use while developing your application. It is driven by the powerful Symfony Console component. To view a list of all available Lumos commands, you may use the `list` command:
+Lumos (named after Harry Potter spell) is a command-lien interface shipped with Lighty, Lumos can create any of Lighty’s basic ingredients for your use while developing your application. It is driven by the powerful Symfony Console component. To view a list of all available Lumos commands, you may use the `list` command:
 
 	$ php lumos info
 
@@ -58,15 +58,15 @@ Lumos (named after Harry Potter spell) is a command-lien interface shipped with 
 
 ### Generating commands
 
-Pikia Framework allow's you to create your own Lumos commands using the command `make:command` which will create command class in `app/console/commands`, the command require the name of the class and option for the key of the command:
+Lighty Framework allow's you to create your own Lumos commands using the command `make:command` which will create command class in `app/console/commands`, the command require the name of the class and option for the key of the command:
 
 	php lumos make:command newPersonCommand
 
-In this exemple Pikia will create Lumos command with the name of newPersonCommand and a key with the default value 'greeting'.
+In this exemple Lighty will create Lumos command with the name of newPersonCommand and a key with the default value 'greeting'.
 
 	php lumos make:command newPersonCommand --command=new:persone
 
-In this exemple Pikia will create Lumos command with the name of newPersonCommand and the key willhave the value 'new:persone'.
+In this exemple Lighty will create Lumos command with the name of newPersonCommand and the key willhave the value 'new:persone'.
 
 ### Command Structure
 
@@ -75,9 +75,9 @@ Once the command created in `app/console/commands`, you should set **key** and *
 The method `handle()` will be called once the user uses the command, you should put the script on the command inside this method :
 
 ```php
-namespace Pikia\App\Console\Commands;
+namespace Lighty\App\Console\Commands;
 
-use Pikia\Kernel\Console\Command\Commands;
+use Lighty\Kernel\Console\Command\Commands;
 
 class newCommand extends Commands
 {
@@ -116,7 +116,7 @@ class newCommand extends Commands
 }
 ```
 
-In this example, notice that the command is inside the namespace `Pikia\App\Console\Commands`, so any call of any class or method outside of this namespace should be preceded by `\` sign or you can use the namespace top of the file by using `use`.
+In this example, notice that the command is inside the namespace `Lighty\App\Console\Commands`, so any call of any class or method outside of this namespace should be preceded by `\` sign or you can use the namespace top of the file by using `use`.
 
 The call of this command will be like that :
 
@@ -162,7 +162,7 @@ You may also make optional arguments :
 protected $key = 'say:hello {user?}';
 ```
 
-Besides arguments, Pikia support another type of inputs, Options are prefixed by `--` like this :
+Besides arguments, Lighty support another type of inputs, Options are prefixed by `--` like this :
 
 ```php
 protected $key = 'say:hello {user} {--man}';

@@ -51,7 +51,7 @@ Route::get('world/home', function()
 #### Routing GET with dynamic parameters
 
 Usually when you want to pass data in the url you use URLs like this `www.exemple.com/?fname=youssef&lname=had`.
-In Fiesta you can use more simple way to pass data and get data from URL.
+In Lighty you can use more simple way to pass data and get data from URL.
 
 ```php
 Route::get('user/{fname}/{lname}', function($fname,$lname)

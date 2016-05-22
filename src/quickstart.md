@@ -4,60 +4,60 @@
 
 - [Installation](#installation)
 	- [Install Composer](#install-composer)
-	- [Install Fiesta](#install-fiesta)
+	- [Install Lighty](#install-fiesta)
 - [Apache](#apache)
-- [Fiesta Requirements](#fiesta-requirements)
+- [Lighty Requirements](#fiesta-requirements)
 - [Documentation](#documentation)
 - [Development](#development)
 - [Versions and Changelog](#versions-and-changelog)
 - [Licence](#licence)
 
-## Fiesta
+## Lighty
 
-Fiesta, a PHP Framework for web developers
+Lighty, a PHP Framework for web developers
 
 ### Installation
 
 #### Install Composer
 
-Fiesta uses `Composer`, You can use Composer  to install Fiesta and its dependencies.
+Lighty uses `Composer`, You can use Composer  to install Lighty and its dependencies.
 
 First, download and install [Composer installer](https://getcomposer.org/)
 
-#### Install Fiesta
+#### Install Lighty
 
-You can install Fiesta via [Composer](https://getcomposer.org/) by running the command of Composer `create-project` in your terminal:
+You can install Lighty via [Composer](https://getcomposer.org/) by running the command of Composer `create-project` in your terminal:
 
 	composer create-project fiesta/fiesta projet_name --prefer-dist
 
 
 ###  Apache
 
-Fiesta comes with `.htaccess` file that uses URL rewriting, if you use Apache, Be sure you have enabled the extension `mod_rewrite`
+Lighty comes with `.htaccess` file that uses URL rewriting, if you use Apache, Be sure you have enabled the extension `mod_rewrite`
 
 
-### Fiesta Requirements
+### Lighty Requirements
 
-Fiesta has some system requirements:
+Lighty has some system requirements:
 * PHP >= 5.5
 * Enabling The mod_rewrite Apache extension
 
 
 ### Documentation
 
-We are working on fiesta documentation for every release version, you can take look or update the documentation of 3.1 release [here](https://gitlab.com/lighty/Docs/tree/3.1)
+We are working on Lighty documentation for every release version, you can take look or update the documentation of next release [here](https://gitlab.com/lighty/Docs/tree/3.2)
 
 
 ### Development
 
-Fiesta is open to the contributions of developers, However developers may instead opt to use the next beta version in [next](https://github.com/fiesta-framework/Fiesta/tree/next) .
+Lighty is open to the contributions of developers, the current released version of Lighty is `3.1` . However developers may instead opt to use the next beta version in [dev](https://gitlab.com/lighty/framework/tree/dev) branch aliased to `3.x-dev`.
 
 
 ### Versions and Changelog
 
-you can find all Fiesta releases [here](https://github.com/fiesta-framework/Fiesta/releases) also the change log [here](https://github.com/fiesta-framework/Fiesta/blob/master/changes.md)
+you can find all Lighty releases [here](https://gitlab.com/lighty/framework/tags) also the change log [here](https://gitlab.com/lighty/framework/blob/dev/changes.md)
 
 
 ### Licence
 
-The Fiesta framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
+The Lighty framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)

@@ -34,7 +34,7 @@ Route::get('/', function()
 
 ### Calling a view
 
-In Fiesta we calling the views using the method `View::make()` :
+In Lighty we calling the views using the method `View::make()` :
 
 ```php
 View::make('view-name');
@@ -97,7 +97,7 @@ echo $view;
 
 ## Smarty Templating
 
-Fiesta uses Smarty.
+Lighty uses Smarty.
 
 Smarty is a web template system written in PHP. Smarty is primarily promoted as a tool for separation of concerns.[2] Smarty is intended to simplify compartmentalization, allowing the front-end of a web page to change separately from its back-end. Ideally, this lowers costs and minimizes the efforts associated with software maintenance. **(Source : Wikipedia)**
 
