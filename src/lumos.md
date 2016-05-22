@@ -201,6 +201,8 @@ While your command is executing, you will obviously need to access the values fo
 To retrieve the value of an argument, use the `argument()` method:
 
 ```php
+<?php 
+
 /**
  * Execute the console command.
  *
