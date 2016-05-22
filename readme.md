@@ -1,13 +1,13 @@
-### Fiesta Docs
+### Lighty Docs
 This is documentation of 3.2 release : 
 
 #### Index
 - [Quick Start](https://gitlab.com/lighty/Docs/blob/3.2/src/quickstart.md#quick-start)
 	- [Installation](https://gitlab.com/lighty/Docs/blob/3.2/src/quickstart.md#installation)
 		- [Install Composer](https://gitlab.com/lighty/Docs/blob/3.2/src/quickstart.md#install-composer)
-		- [Install Fiesta](https://gitlab.com/lighty/Docs/blob/3.2/src/quickstart.md#install-fiesta)
+		- [Install Lighty](https://gitlab.com/lighty/Docs/blob/3.2/src/quickstart.md#install-lighty)
 	- [Apache](https://gitlab.com/lighty/Docs/blob/3.2/src/quickstart.md#apache)
-	- [Fiesta Requirements](https://gitlab.com/lighty/Docs/blob/3.2/src/quickstart.md#fiesta-requirements)
+	- [Lighty Requirements](https://gitlab.com/lighty/Docs/blob/3.2/src/quickstart.md#lighty-requirements)
 	- [Documentation](https://gitlab.com/lighty/Docs/blob/3.2/src/quickstart.md#documentation)
 	- [Development](https://gitlab.com/lighty/Docs/blob/3.2/src/quickstart.md#development)
 	- [Versions and Changelog](https://gitlab.com/lighty/Docs/blob/3.2/src/quickstart.md#versions-and-changelog)
