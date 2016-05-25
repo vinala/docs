@@ -2,6 +2,8 @@
 
 [![alt return](https://gitlab.com/lighty/Art/raw/master/Resources/signs.png) Main Menu](https://gitlab.com/lighty/Docs/tree/3.2/#index)
 
+- [Management](#management)
+	- [Creating Models](#creating-models)
 - [CRUD](#crud-create-read-update-delete)
 	- [Insert new data](#insert-new-data)
 	- [Read and get data](#read-and-get-data)
@@ -15,7 +17,14 @@
 Light gives you two ways to create models using Light Panel ou Lumos.
 
 To create models using Lumos, you need to execute `make:model` command and pass to it three parameters `fileName`, `className`, `tableName`.
-the first is the name of the file in models folder, the second is the class used in php script, Ex : mdlPersonne, the third id the name of data table in the database to work with. for more details see [Lumos Documentation](https://gitlab.com/lighty/Docs/blob/3.2/src/lumos.md#lumos).
+the first is the name of the file in models folder, the second is the class used in php script, Ex : mdlPersonne, the third id the name of data table in the database to work with. 
+
+```shell
+$ php lumos make:model cars mdlCars tbl_cars
+```
+in this exemple Lumos will create model and name the file 'cars' in models folder, and the class is 'mdlCars', the data table will be 'tbl_cars'.
+
+for more details see [Lumos Documentation](https://gitlab.com/lighty/Docs/blob/3.2/src/lumos.md#lumos).
 	
 ### CRUD (create, read, update, delete)
 
