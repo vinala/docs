@@ -7,8 +7,17 @@
 	- [Read and get data](#read-and-get-data)
 	- [Update and edit data](#update-and-edit-data)
 	- [Delete data](#delete-data)
+
+### Management 
+
+#### Creating Models
+
+Light gives you two ways to create models using Light Panel ou Lumos.
+
+To create models using Lumos, you need to execute `make:model` command and pass to it three parameters `fileName`, `className`, `tableName`.
+the first is the name of the file in models folder, the second is the class used in php script, Ex : mdlPersonne, the third id the name of data table in the database to work with. for more details see [Lumos Documentation](https://gitlab.com/lighty/Docs/blob/3.2/src/lumos.md#lumos).
 	
-### CRUD (create, read, update, delete) 
+### CRUD (create, read, update, delete)
 
 #### Insert new data
 
