@@ -33,6 +33,8 @@ This is documentation of 3.2 release :
 		- [Storing a view](https://gitlab.com/lighty/Docs/blob/3.2/src/views.md#storing-a-view)
 	- [Smarty Templating](https://gitlab.com/lighty/Docs/blob/3.2/src/views.md#smarty-templating)
 - [Models](https://gitlab.com/lighty/Docs/blob/3.2/src/models.md#models)
+	- [Management](https://gitlab.com/lighty/Docs/blob/3.2/src/models.md#management)
+		- [Creating Models](https://gitlab.com/lighty/Docs/blob/3.2/src/models.md#creating-models)
 	- [CRUD (Create, Read, Update, Delete)](https://gitlab.com/lighty/Docs/blob/3.2/src/models.md#crud-create-read-update-delete)
 		- [Insert new data](https://gitlab.com/lighty/Docs/blob/3.2/src/models.md#insert-new-data)
 		- [Read and get data](https://gitlab.com/lighty/Docs/blob/3.2/src/models.md#read-and-get-data)
