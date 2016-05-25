@@ -14,7 +14,7 @@
 
 #### Creating Models
 
-Light gives you two ways to create models using Light Panel ou Lumos.
+Lighty gives you two ways to create models using Lighty Panel ou Lumos.
 
 To create models using Lumos, you need to execute `make:model` command and pass to it three parameters `fileName`, `className`, `tableName`.
 the first is the name of the file in models folder, the second is the class used in php script, Ex : mdlPersonne, the third id the name of data table in the database to work with. 
