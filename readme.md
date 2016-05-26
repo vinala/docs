@@ -45,6 +45,8 @@ This is documentation of 3.2 release :
 - [Lumos](https://gitlab.com/lighty/Docs/blob/3.2/src/lumos.md#lumos)
 	- [Info](https://gitlab.com/lighty/Docs/blob/3.2/src/lumos.md#info)
 		- [Owner Infos](https://gitlab.com/lighty/Docs/blob/3.2/src/lumos.md#owner-infos)
+	- [Database](https://gitlab.com/lighty/Docs/blob/3.2/src/lumos.md#database)
+		- [Export Database](https://gitlab.com/lighty/Docs/blob/3.2/src/lumos.md#export-database)
 	- [Schema](https://gitlab.com/lighty/Docs/blob/3.2/src/lumos.md#schema)
 		- [Genarate Schema](https://gitlab.com/lighty/Docs/blob/3.2/src/lumos.md#genarate-schema)
 		- [Execute Schema](https://gitlab.com/lighty/Docs/blob/3.2/src/lumos.md#execute-schema)
