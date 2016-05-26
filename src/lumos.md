@@ -33,8 +33,9 @@
 ## Introduction
 
 Lumos (named after Harry Potter spell) is a command-lien interface shipped with Lighty, Lumos can create any of Lighty’s basic ingredients for your use while developing your application. It is driven by the powerful Symfony Console component. To view a list of all available Lumos commands, you may use the `list` command:
-
-	$ php lumos info
+```shell
+$ php lumos list
+```	
 
 ## The framework commands
 
@@ -72,11 +73,15 @@ Lighty will generate sql file contains tables structure and data in `/database/b
 
 Lighty Framework allow's you to create your own Lumos commands using the command `make:command` which will create command class in `app/console/commands`, the command require the name of the class and option for the key of the command:
 
-	php lumos make:command newPersonCommand
+```shell
+php lumos make:command newPersonCommand
+```
 
 In this exemple Lighty will create Lumos command with the name of newPersonCommand and a key with the default value 'greeting'.
 
-	php lumos make:command newPersonCommand --command=new:persone
+```shell
+php lumos make:command newPersonCommand --command=new:persone
+```
 
 In this exemple Lighty will create Lumos command with the name of newPersonCommand and the key willhave the value 'new:persone'.
 
@@ -133,22 +138,26 @@ class newCommand extends Commands
 In this example, notice that the command is inside the namespace `Lighty\App\Console\Commands`, so any call of any class or method outside of this namespace should be preceded by `\` sign or you can use the namespace top of the file by using `use`.
 
 The call of this command will be like that :
-
-	$ php lumos say:hello youssef
+```shell
+$ php lumos say:hello youssef
+```
 
 Or like that : 
-
-	$ php lumos say:hello youssef had
+```shell
+$ php lumos say:hello youssef had
+```
 
 ### Shortcut Syntax
 
 You do not have to type out the full command names. You can just type the shortest **unambiguous** name to run a command. So if there are non-clashing commands, then you can run **help** like this:
-
-	$ php lumos h
+```shell
+$ php lumos h
+```
 
 If you have commands using : to namespace commands then you just have to type the shortest unambiguous text for each part. If you have created the say:hello as shown in lumos documentation then you can run it with:
-
-	$ php lumos s:h Youssef
+```shell
+$ php lumos s:h Youssef
+```
 
 If you enter a short command that's ambiguous (there are more than one command that match), then no command will be run and some suggestions of the possible commands to choose from will be output.
 
@@ -201,8 +210,9 @@ protected $key = 'say:hello {name} {--sex=}';
 ```
 
 In this example, the user may pass a value for the option like so:
-
-	php lumos say:hello katherine --sex=women
+```shell
+php lumos say:hello katherine --sex=women
+```
 
 You may also assign default values to options:
 
