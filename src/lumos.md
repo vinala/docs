@@ -40,6 +40,15 @@ Lumos (named after Harry Potter spell) is a command-lien interface shipped with 
 
 	$ php lumos info
 
+### Database
+#### Export Database
+Light gives you the possibility to export database (structure and data) whenever you want.
+Using Lumos command save:database : 
+```shell
+$ php lumos save:database
+```
+Lighty will generate sql file contains tables structure and data in /database folder with name of timestamp
+
 ### Schema
 #### Genarate Schema
 
