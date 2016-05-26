@@ -50,7 +50,7 @@ Using Lumos command `save:database` :
 ```shell
 $ php lumos save:database
 ```
-Lighty will generate sql file contains tables structure and data in /database folder with name of timestamp.
+Lighty will generate sql file contains tables structure and data in `/database/backup` folder with name of timestamp.
 
 ### Schema
 #### Genarate Schema
