@@ -5,7 +5,7 @@
 - [Introduction](#introduction)
 - [Configuration](#configuration)
 - [Dealing with caching](#dealing_with_caching)
-	- [Set to cache](#Write to cache)
+	- [Set to cache](#set_to_cache)
 
 ### Introduction
 
@@ -27,6 +27,7 @@ Configuring the Cache class can be done in `config/cache.php`, ...
 
 To set a cache you need to use `set()`method and pass to it three arguments, the name of the cache, the value to cache and how much time to cache in minutes :
 ```php
+<?php
 Cache::set("great", "Content to preserve into the cache" , 3);
 ```
 in this example, the cache name is 'great' ,the value to cache is 'Content to preserve into the cache' and it will still for 3 minutes before it be destroyed
