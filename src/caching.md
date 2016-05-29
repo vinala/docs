@@ -4,9 +4,9 @@
 
 - [Introduction](#introduction)
 - [Configuration](#configuration)
-- [Dealing with caching](#dealing_with_caching)
-	- [Set the cache](#set_the_cache)
-	- [Get the cache](#get_the_cache)
+- [Dealing with caching](#dealing-with-caching)
+	- [Set the cache](#set-the-cache)
+	- [Get the cache](#get-the-cache)
 
 ### Introduction
 
