@@ -5,7 +5,8 @@
 - [Introduction](#introduction)
 - [Configuration](#configuration)
 - [Dealing with caching](#dealing_with_caching)
-	- [Set to cache](#set_to_cache)
+	- [Set the cache](#set_the_cache)
+	- [Get the cache](#get_the_cache)
 
 ### Introduction
 
@@ -23,11 +24,21 @@ The built-in caching systems are :
 Configuring the Cache class can be done in `config/cache.php`, ...
 
 ### Dealing with caching
-#### Set to cache
+#### Set the cache
 
-To set a cache you need to use `set()`method and pass to it three arguments, the name of the cache, the value to cache and how much time to cache in minutes :
+To set a cache you need to use `set()` method and pass to it three arguments, the name of the cache, the value to cache and how much time to cache in minutes :
 ```php
 <?php
-Cache::set("great", "Content to preserve into the cache" , 3);
+
+	Cache::set("great", "Content to preserve into the cache" , 3);
 ```
-in this example, the cache name is 'great' ,the value to cache is 'Content to preserve into the cache' and it will still for 3 minutes before it be destroyed
+in this example, the cache name is 'great' ,the value to cache is 'Content to preserve into the cache' and it will still for 3 minutes before it be destroyed, so Lighty will create this cache interface for three minutes
+
+#### Get the cache
+To get a cache you need to use `get()` method and pass to it just one argument, the name of the cache :
+```php
+<?php
+
+	echo Cache::get("great");
+```
+in this example, the cache name is 'great' ,so Lighty will bring the cache interface with the name of 'great' if it is not yet destroyed.
