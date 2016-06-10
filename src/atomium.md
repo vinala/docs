@@ -2,6 +2,16 @@
 
 Atomium is template engine shipped with Lighty
 
+#### Comments
+
+```php
+<?php
+
+{// 
+	That's a comment
+//}
+```
+
 ### Control Structures
 #### Loops
 
