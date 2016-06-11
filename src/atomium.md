@@ -11,7 +11,7 @@ Atomium is template engine shipped with Lighty
 ```
 
 ```php
-/// This is one line comment
+// This is one line comment
 ```
 
 ### Control Structures
