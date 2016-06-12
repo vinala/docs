@@ -15,11 +15,16 @@ Atomium is template engine shipped with Lighty
 ```
 
 ### Control Structures
+#### Conditions
+```php
+@if($owner == "Youssef")
+	true
+@endfor
+```
+
 #### Loops
 
 ```php
-<?php
-
 @for($i = 0 ; $i < 10 ; $i++)
 	The value is {{ $i }} 
 @endfor
@@ -27,16 +32,12 @@ Atomium is template engine shipped with Lighty
 
 
 ```php
-<?php
-
 @foreach($persons as $key => $person)
 	The person is {{ $person }} 
 @endforeach
 ```
 
 ```php
-<?php
-
 @while($i < 10)
 	The value is {{ $i }} 
 @endwhile
