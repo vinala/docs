@@ -1,6 +1,6 @@
 ## Atomium
 
-Atomium is template engine shipped with Lighty
+Atomium is template engine shipped with Lighty, it provides a way to make your code more clean and more elegent,
 
 #### Comments
 
