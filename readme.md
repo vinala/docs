@@ -1,5 +1,8 @@
 ### Lighty Docs
-This is documentation of 3.2 release : 
+
+Lighty is PHP framework made for web developers to make the web programing more easyer, faster and wonderful. Created in 10/10/2014 by Youssef Had, provided nice features to help in you in your project such as Lumos, Panel, Atomium and Bridge. To understand it you have just follow this documentation.
+
+This is documentation is for v3.2 release : 
 
 #### Index
 - [Quick Start](https://gitlab.com/lighty/Docs/blob/3.2/src/quickstart.md#quick-start)
