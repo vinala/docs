@@ -5,6 +5,8 @@
 - [Introduction](#introduction)
 - [Generate Atomium views](#generate-atomium-views)
 - [Layout](#layout)
+- [Displaying Data](#displaying-data)
+
 
 #### Introduction
 
@@ -27,7 +29,8 @@ php lumos make:view layouts.userLayout.personeView --atom
 Basically atomium file is html file ,merged with PHP code, but instead of using PHP tags we use atomium functions :
 
 ```html
-/// Stored in resources/views/layouts/welcome.atom
+
+<!-- Stored in app/views/layouts/welcome.atom -->
 
 <html>
     <head>
@@ -42,6 +45,33 @@ Basically atomium file is html file ,merged with PHP code, but instead of using 
     </body>
 </html>
 ```
+
+#### Displaying Data
+
+To display data you just need to use `{{ }}` tags, for exemple to show `"Hello World !"` string you need to implement this code : 
+
+```html
+<!-- Stored in app/views/hello.atom -->
+
+{{"Hello World !"}}
+```
+
+if we want to display the contents of the `name` variable like so:
+
+```html
+<!-- Stored in app/views/yourName.atom -->
+
+{{$name}}
+```
+
+You may also echo the results of any PHP function :
+
+```html
+<!-- Stored in app/views/now.atom -->
+
+{{time()}}
+```
+
 
 #### Comments
 
