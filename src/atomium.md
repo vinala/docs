@@ -14,7 +14,28 @@ Lighty provides many ways to generate Atomium Views using Lumos and Panel, besid
 To use Lumos you should execute `make:view` command passingin first parametre the name or path where view stored, and the importnat is to pass `--atom` option : 
 
 ```shell
-php lumos make:view folder.subfolder.personeView --atom
+php lumos make:view layouts.userLayout.personeView --atom
+```
+
+#### Layout
+
+Basically atomium file is html file ,merged with PHP code, but instead of using PHP tags we use atomium functions :
+
+```html
+/// Stored in resources/views/layouts/master.blade.php 
+
+<html>
+    <head>
+        @exec(Html::title());
+    </head>
+    <body>
+        <div class="container">
+            @lang('welcome');
+        </div>
+
+        {{"Youssef Had"}}
+    </body>
+</html>
 ```
 
 #### Comments
