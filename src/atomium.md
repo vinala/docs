@@ -1,8 +1,21 @@
 ## Atomium
 
+
+#### Introduction
+
 Atomium is the simple, yet powerful template engine shipped with Lighty, it provides a way to make your code more clean and more elegent.
 
 Unlike other popular PHP templating engines, Atomium does not restrict you from using plain PHP code in your views. All Atomium views are compiled into plain PHP code and cached until they are modified, meaning Atomium adds essentially zero overhead to your application. Atomium view files use the `.atom` file extension and are typically stored in the app/views directory.
+
+#### Generate Atomium views
+
+Lighty provides many ways to generate Atomium Views using Lumos and Panel, besides you can create them manually !
+
+To use Lumos you should execute `make:view` command passingin first parametre the name or path where view stored, and the importnat is to pass `--atom` option : 
+
+```shell
+php lumos make:view folder.subfolder.personeView --atom
+```
 
 #### Comments
 
