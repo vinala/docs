@@ -72,6 +72,25 @@ You may also echo the results of any PHP function :
 {{time()}}
 ```
 
+> Note: Atomium {{ }} statements are automatically sent through PHP's htmlentities function to prevent XSS attacks.
+
+#### PHP Tags
+
+Atomium Unlike other popular PHP templating engines, it allow's you to use PHP tags `<?php ?>` whenever you want.
+
+in fact, you can use `{{{ }}}` Atomium tags to execute PHP code :
+
+```php
+<!-- Stored in app/views/script.atom -->
+
+{{{
+	$name = "Youssef";
+	$lastName ="Had" ;
+	//
+	echo $name." ".$lastName;
+}}}
+```
+
 
 #### Comments
 
