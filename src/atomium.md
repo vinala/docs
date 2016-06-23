@@ -27,7 +27,7 @@ php lumos make:view layouts.userLayout.personeView --atom
 Basically atomium file is html file ,merged with PHP code, but instead of using PHP tags we use atomium functions :
 
 ```html
-/// Stored in resources/views/layouts/master.blade.php 
+/// Stored in resources/views/layouts/welcome.atom
 
 <html>
     <head>
