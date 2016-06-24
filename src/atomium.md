@@ -72,7 +72,7 @@ You may also echo the results of any PHP function :
 {{time()}}
 ```
 
-> Note: Atomium {{ }} statements are automatically sent through PHP's htmlentities function to prevent XSS attacks.
+> **Note**: Atomium {{ }} statements are automatically sent through PHP's htmlentities function to prevent XSS attacks.
 
 #### PHP Tags
 
@@ -125,6 +125,8 @@ You may construct `if` statements using the @if, @elseif, @else, and @endif tags
 	Hello guest
 @endif;
 ```
+
+> **Note**: @if, @elseif, @else tags ends with `:` and @endif tag ends with `;`
 
 #### Loops
 
