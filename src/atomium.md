@@ -108,14 +108,22 @@ Atomium allows you to define comments in your views. However, unlike HTML commen
 
 
 
-### Control Structures
-#### Conditions
-```php
-<?php
+#### Control Structures
 
-@if($owner == "Youssef")
-	true
-@endfor
+In addition to displaying data, Atomium also provides convenient short-cuts for common PHP control structures, such as conditional statements and loops. These short-cuts provide a very clean way of working with PHP control structures.
+
+##### If statements
+
+You may construct `if` statements using the @if, @elseif, @else, and @endif tags. These directives function identically to their PHP counterparts:
+
+```php
+@if($owner == "Youssef") : 
+	Hello Youssef
+@elseif($owner == "Ayoub") : 
+	Hello Ayoub
+@else : 
+	Hello guest
+@endif;
 ```
 
 #### Loops
