@@ -12,6 +12,7 @@
 
 ----
 > `Class` : Lighty\Kernel\MVC\Model
+
 ----
 
 ### Management 
