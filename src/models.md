@@ -17,11 +17,50 @@
 
 ### Introduction
 
-In Lighty working with data could be done by MVC structure, Lighty built-in ORM specializes in relational databases by creating objects, These objects provide access to collections of data. They allow you to save new records, modify/delete existing ones, in other sense, Lighty will create virtual copy of your database tables to use in your application, cleanly and quite easy.
+In Lighty working with data could be done by MVC structure, Lighty built-in ORM specializes in relational databases by creating objects, These objects we call them `models`, they provide access to collections of data. They allow you to save new records, modify/delete existing ones, it's like if Lighty create virtual copy of your database tables to use in your application, cleanly and quite easy, all models are stored in `app/models` folder.
 
 Before we get started exploring the ORM, make sure your database connection is well configured.
 
+### Quick Example
+
+To get started you don’t have to write any code. If you’ve configured the connection between Lighty and your database in `config/database.php` file you can just start using the ORM. For example if we wanted to load some data from our persons table the model will be so :
+
+```php
+<?php
+
+use Lighty\Kernel\MVC\Model\Model;
+
+class mdl_Cars extends Model
+{
+	//Name of the table in database
+	public static $table='cars';
+}
+```
+In these example the model class is `mdl_Cars` while the data table is `cars` without prefix.
+
+
 ### Management 
+
+```php
+<?php
+
+use Lighty\Core\MVC\Controller\Controller;
+
+class ctrlPerson extends Controller
+{
+
+	/**
+	 * Get the resource by id
+	 */
+
+	public static function show($id)
+	{
+		$person = new Person($id);
+		return $person;
+	}
+}
+
+```
 
 #### Creating Models
 
