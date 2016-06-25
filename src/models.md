@@ -30,39 +30,15 @@ To get started you don’t have to write any code. If you’ve configured the co
 
 use Lighty\Kernel\MVC\Model\Model;
 
-class mdl_Cars extends Model
+class mdl_Person extends Model
 {
 	//Name of the table in database
-	public static $table='cars';
+	public static $table='persons';
 }
 ```
-In these example the model class is `mdl_Cars` while the data table is `cars` without prefix.
+In these example the model class is `mdl_Person` while the data table is `persons` without prefix.
 
-
-### Management 
-
-```php
-<?php
-
-use Lighty\Core\MVC\Controller\Controller;
-
-class ctrlPerson extends Controller
-{
-
-	/**
-	 * Get the resource by id
-	 */
-
-	public static function show($id)
-	{
-		$person = new Person($id);
-		return $person;
-	}
-}
-
-```
-
-#### Creating Models
+### Creating Models
 
 Lighty gives you two ways to create models using Lighty Panel or Lumos.
 
