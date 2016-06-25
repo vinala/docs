@@ -10,7 +10,9 @@
 	- [Update and edit data](#update-and-edit-data)
 	- [Delete data](#delete-data)
 
-> `Class` Lighty\Kernel\MVC\Model
+----
+> `Class` : Lighty\Kernel\MVC\Model
+----
 
 ### Management 
 
