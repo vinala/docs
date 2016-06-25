@@ -29,9 +29,9 @@ To get started you don’t have to write any code. If you’ve configured the co
 ```php
 <?php
 
-use Lighty\Kernel\MVC\Model\Model;
+use Lighty\Kernel\MVC\ORM;
 
-class mdlPerson extends Model
+class mdlPerson extends ORM
 {
 	//Name of the table in database
 	public static $table='persons';
