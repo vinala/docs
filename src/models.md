@@ -178,11 +178,48 @@ In this example, we pass a parameter contains the primary key to delete method a
 
 ### Relations
 
-Of course when you work with database you will need to get data from many tables and make relations between tables, for this reason, Lighty provide in its ORM system a quite simple way to relate between tables, For example, an article may have many comments, and belong to an author. Lighty can managing all this by using four association types : hasOne, hasMany, belongsTo, and belongsToMany:
+Of course when you work with database you will need to get data from many tables and make relations between tables, for this reason, Lighty provide in its ORM system a quite simple way to relate between tables, For example, an article may have many comments, and belong to an author. Lighty can managing all this by using four Relations types : hasOne, hasMany, belongsTo, and belongsToMany:
 
-| Relationship | Association Type | Example                             |
+| Relationship | Relations Type | Example                             |
 |--------------|------------------|-------------------------------------|
 | One to one   | hasOne           | A user has one and only one profile |
 | One to many  | hasMany          | A user can have multiple articles.  |
 | many to one  | belongsTo        | Many articles belong to a user      |
 | many to many | belongsToMany    | Tags belong to many articles        |
+
+Relations are defined during a method named by the other part of relation of your table object. Methods matching the relations type allow you to define the modelss in your application. For example, a User model might be associated with one Car. To define this relationship, we place a car method on the User model. The car method should return the results of the hasOne method on the base ORM model class:
+
+```
+<?php
+
+use Lighty\Kernel\MVC\ORM;
+
+class User extends ORM
+{
+	/**
+	* Name of the DataTable
+	*/
+	public static $table='users';
+
+	/**
+     * Get the car record associated with the user.
+     */
+	public function car()
+	{
+		return $this->hasOne("Cars");
+	}
+}
+```
+
+ORM assumes that the foreign key should have a value matching the id (or the custom $primaryKey) column of the parent. In other words, ORM will look for the value of the user's id column in the user_id by concat $table proprity with `_id` string to get column of the Car record. For example User table has a foreign key of a primary key of Car table, both columns should have primary key table name with `_id` string like `cars_id`.
+
+If you would like the relationship to use a value other than id, you may pass a second and third argument to the hasOne method specifying your custom key:
+
+```
+<?php
+
+public function car()
+{
+	return $this->hasOne("Cars");
+}
+```
