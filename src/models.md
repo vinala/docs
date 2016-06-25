@@ -1,4 +1,4 @@
-# Models
+# ORM (Object-Relational Mapping)
 
 [![alt return](https://gitlab.com/lighty/Art/raw/master/Resources/signs.png) Main Menu](https://gitlab.com/lighty/Docs/tree/3.2/#index)
 
@@ -146,3 +146,4 @@ class ctrlPerson extends Controller
 
 In this example, we pass a parameter contains the primary key to delete method and we pass it again to Person model instance, then we call delete method to remove the record from database.
 
+### Relations
