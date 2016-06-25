@@ -10,6 +10,8 @@
 	- [Update and edit data](#update-and-edit-data)
 	- [Delete data](#delete-data)
 
+> `Class` Lighty\Kernel\MVC\Model
+
 ### Management 
 
 #### Creating Models
@@ -140,3 +142,4 @@ class ctrlPerson extends Controller
 ```
 
 In this example, we pass a parameter contains the primary key to delete method and we pass it again to Person model instance, then we call delete method to remove the record from database.
+
