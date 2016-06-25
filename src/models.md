@@ -189,7 +189,7 @@ Of course when you work with database you will need to get data from many tables
 
 Relations are defined during a method named by the other part of relation of your table object. Methods matching the relations type allow you to define the modelss in your application. For example, a User model might be associated with one Car. To define this relationship, we place a car method on the User model. The car method should return the results of the hasOne method on the base ORM model class:
 
-```
+```php
 <?php
 
 use Lighty\Kernel\MVC\ORM;
@@ -215,7 +215,7 @@ ORM assumes that the foreign key should have a value matching the id (or the cus
 
 If you would like the relationship to use a value other than id, you may pass a second and third argument to the hasOne method specifying your custom key:
 
-```
+```php
 <?php
 
 public function car()
