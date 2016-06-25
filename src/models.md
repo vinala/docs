@@ -30,13 +30,21 @@ To get started you don’t have to write any code. If you’ve configured the co
 
 use Lighty\Kernel\MVC\Model\Model;
 
-class mdl_Person extends Model
+class mdlPerson extends Model
 {
 	//Name of the table in database
 	public static $table='persons';
 }
 ```
-In these example the model class is `mdl_Person` while the data table is `persons` without prefix.
+In these example the model class is `mdlPerson` while the data table is `persons` without prefix, so the instance of mdlPerson will have in its property the columns of data table:
+
+```php
+<?php
+
+	$person = new mdlPerson(1);
+	echo $person->firstName;
+	echo $person->lastName;
+```
 
 ### Creating Models
 
