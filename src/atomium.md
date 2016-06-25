@@ -24,6 +24,8 @@ To use Lumos you should execute `make:view` command passingin first parametre th
 php lumos make:view layouts.userLayout.personeView --atom
 ```
 
+for more details see [Lumos Documentation](https://gitlab.com/lighty/Docs/blob/3.2/src/lumos.md#lumos).
+
 #### Layout
 
 Basically atomium file is html file ,merged with PHP code, but instead of using PHP tags we use atomium functions :
