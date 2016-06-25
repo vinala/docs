@@ -2,8 +2,9 @@
 
 [![alt return](https://gitlab.com/lighty/Art/raw/master/Resources/signs.png) Main Menu](https://gitlab.com/lighty/Docs/tree/3.2/#index)
 
-- [Management](#management)
-	- [Creating Models](#creating-models)
+- [Introduction](#introduction)
+- [Quick Example](#quick-example)
+- [Creating Models](#creating-models)
 - [CRUD](#crud-create-read-update-delete)
 	- [Insert new data](#insert-new-data)
 	- [Read and get data](#read-and-get-data)
