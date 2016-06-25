@@ -177,3 +177,12 @@ class ctrlPerson extends Controller
 In this example, we pass a parameter contains the primary key to delete method and we pass it again to Person model instance, then we call delete method to remove the record from database.
 
 ### Relations
+
+Of course when you work with database you will need to get data from many tables and make relations between tables, for this reason, Lighty provide in its ORM system a quite simple way to relate between tables, For example, an article may have many comments, and belong to an author. Lighty can managing all this by using four association types : hasOne, hasMany, belongsTo, and belongsToMany:
+
+| Relationship | Association Type | Example                             |
+|--------------|------------------|-------------------------------------|
+| One to one   | hasOne           | A user has one and only one profile |
+| One to many  | hasMany          | A user can have multiple articles.  |
+| many to one  | belongsTo        | Many articles belong to a user      |
+| many to many | belongsToMany    | Tags belong to many articles        |
