@@ -15,6 +15,12 @@
 
 ----
 
+### Introduction
+
+In Lighty working with data could be done by MVC structure, Lighty built-in ORM specializes in relational databases by creating objects, These objects provide access to collections of data. They allow you to save new records, modify/delete existing ones, in other sense, Lighty will create virtual copy of your database tables to use in your application, cleanly and quite easy.
+
+Before we get started exploring the ORM, make sure your database connection is well configured.
+
 ### Management 
 
 #### Creating Models
