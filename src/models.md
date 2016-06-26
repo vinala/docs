@@ -213,13 +213,15 @@ class User extends ORM
 
 ORM assumes that the foreign key should have a value matching the id (or the custom $primaryKey) column of the parent. In other words, ORM will look for the value of the user's id column in the user_id by concat $table proprity with `_id` string to get column of the Car record. For example User table has a foreign key of a primary key of Car table, both columns should have primary key table name with `_id` string like `cars_id`.
 
-If you would like the relationship to use a value other than id, you may pass a second and third argument to the hasOne method specifying your custom key:
+If you would like the relationship to use a value other than id, you may pass a second and third argument to the hasOne method specifying your custom key, th second one is the column in model table, the third one is the colmun of the related table :
 
 ```php
 <?php
-
-public function car()
+class User extends ORM
 {
-	return $this->hasOne("Cars");
+	public function car()
+	{
+		return $this->hasOne("Cars" , "primary-key-of-user-table", "foreign-key-of-user-in-car-table");
+	}
 }
 ```
