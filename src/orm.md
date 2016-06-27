@@ -226,9 +226,9 @@ class User extends ORM
 }
 ```
 
-Lighty uses PHP magic, so to get the car of the user you should just call the function you add in model without brackets :
+Lighty uses PHP magic, so to get the car of the user 1 you should just call the function you add in model **without brackets** :
 
-```
+```php
 <?php
 
 $car = User::find(1)->car;
