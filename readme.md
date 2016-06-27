@@ -36,7 +36,7 @@ This is documentation is for v3.2 release :
 		- [Storing a view](https://gitlab.com/lighty/Docs/blob/3.2/src/views.md#storing-a-view)
 	- [Smarty Templating](https://gitlab.com/lighty/Docs/blob/3.2/src/views.md#smarty-templating)
 - [Atomium](https://gitlab.com/lighty/Docs/blob/3.2/src/atomium.md#views)
-- [ORM & Database Access](https://gitlab.com/lighty/Docs/blob/3.2/src/orm.md#orm-object-relational-mapping)
+- [ORM & Database Access](https://gitlab.com/lighty/Docs/blob/3.2/src/orm.md#orm-object-relational-mapping-and-database-access)
 	- [Introduction](https://gitlab.com/lighty/Docs/blob/3.2/src/orm.md#introduction)
 	- [Quick Example](https://gitlab.com/lighty/Docs/blob/3.2/src/orm.md#quick-example)
 	- [Creating Models](https://gitlab.com/lighty/Docs/blob/3.2/src/orm.md#creating-models)
