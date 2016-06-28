@@ -136,29 +136,29 @@ You may construct `if` statements using the `@if`, `@elseif`, `@else`, and `@end
 
 > **Note**: `@if`, `@elseif`, `@else` tags ends with `:` and `@endif` tag ends with `;`
 
-#### Loops
+### Loops
 
+In addition to conditional statements, Atomium provides simple directives for working with PHP's supported loop structures. Again, each of these directives functions identically to their PHP counterparts.
+
+
+`For` loop match `@for` tag:
 ```php
-<?php
-
 @for($i = 0 ; $i < 10 ; $i++)
 	The value is {{ $i }} 
 @endfor
 ```
 
-
+`Foreach` loop match `@foreach` tag:
 ```php
-<?php
-
 @foreach($persons as $key => $person)
 	The person is {{ $person }} 
 @endforeach
 ```
 
+`While` loop match `@while` tag:
 ```php
-<?php
-
 @while($i < 10)
 	The value is {{ $i }} 
+	{{{ $i++; }}}
 @endwhile
 ```
