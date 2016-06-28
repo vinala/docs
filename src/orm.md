@@ -250,6 +250,8 @@ First, your database tables need to be keyed correctly. For a hasOne relationshi
 If we had the UsersTable and PhonesTable classes made and UsersTable hasOne Phones relation, we could make the relation with the following code:
 
 ```php
+<?php
+
 public function phone()
 {
 	return $this->hasOne("Users");
