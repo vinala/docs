@@ -269,7 +269,6 @@ public function phone()
 }
 ```
 
-Possible keys for hasOne relation arrays include:
 hasOne() relation accept one parameter and two other optional :
 
 * **className** : the class name of the table being associated to the current model. If you’re defining a ‘User hasOne Phone’ relationship, the className key should equal `Phone`.
