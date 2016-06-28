@@ -6,6 +6,10 @@
 - [Generate Atomium views](#generate-atomium-views)
 - [Layout](#layout)
 - [Displaying Data](#displaying-data)
+- [PHP Tags](#php-tags)
+- [Comments](comments)
+- [Control Structures](#control-structures)
+	- [If statements](#if-statements)
 
 
 #### Introduction
@@ -96,7 +100,7 @@ in fact, you can use `{{{ }}}` Atomium tags to execute PHP code :
 
 #### Comments
 
-Atomium allows you to define comments in your views. However, unlike HTML comments, Blade comments are not included in the HTML returned by your application, comments could be one line or block of code :
+Atomium allows you to define comments in your views. However, unlike HTML comments, Atomium comments are not included in the HTML returned by your application, comments could be one line or block of code :
 
 ```php
 /// This is one line comment
@@ -116,7 +120,7 @@ In addition to displaying data, Atomium also provides convenient short-cuts for 
 
 ##### If statements
 
-You may construct `if` statements using the @if, @elseif, @else, and @endif tags. These directives function identically to their PHP counterparts:
+You may construct `if` statements using the `@if`, `@elseif`, `@else`, and `@endif` tags. These directives function identically to their PHP counterparts:
 
 ```php
 @if($owner == "Youssef") : 
@@ -128,7 +132,7 @@ You may construct `if` statements using the @if, @elseif, @else, and @endif tags
 @endif;
 ```
 
-> **Note**: @if, @elseif, @else tags ends with `:` and @endif tag ends with `;`
+> **Note**: `@if`, `@elseif`, `@else` tags ends with `:` and `@endif` tag ends with `;`
 
 #### Loops
 
