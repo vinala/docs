@@ -221,7 +221,7 @@ class User extends ORM
 {
 	public function car()
 	{
-		return $this->hasOne("Cars" , "primary-key-of-user-table", "foreign-key-of-user-in-car-table");
+		return $this->hasOne("Cars");
 	}
 }
 ```
@@ -252,8 +252,23 @@ If we had the UsersTable and PhonesTable classes made and UsersTable hasOne Phon
 ```php
 <?php
 
-public function phone()
+public function user()
 {
 	return $this->hasOne("Users");
 }
 ```
+
+so if you use your own keys definitions without follow Lighty conventions, use the following code:
+
+```php
+<?php
+
+public function phone()
+{
+	return $this->hasOne("Phones", "primary-key-of-users-table", "foreign-key-of-user-in-phones-table");
+}
+```
+
+Possible keys for hasOne relation arrays include:
+
+* **className** : the class name of the table being associated to the current model. If you’re defining a ‘User hasOne Phone’ relationship, the className key should equal ‘Phone’.
