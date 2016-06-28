@@ -243,7 +243,7 @@ First, your database tables need to be keyed correctly. For a hasOne relationshi
 | Users hasOne Phones | phones.users_id |
 | Phones hasOne Users | users.phones_id |
 
-> It is not mandatory to follow Lighty conventions, you can override the use of any foreignKey in your associations definitions. Nevertheless sticking to conventions will make your code less repetitive, easier to read and to maintain.
+> It is not mandatory to follow Lighty conventions, you can override the use of any foreignKey in your relation definitions. Nevertheless sticking to conventions will make your code less repetitive, easier to read and to maintain.
 
 If we had the UsersTable and PhonesTable classes made and UsersTable hasOne Phones relation, we could make the relation with the following code:
 
