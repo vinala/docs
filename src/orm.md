@@ -233,3 +233,25 @@ Lighty uses PHP magic, so to get the car of the user 1 you should just call the 
 
 $car = User::find(1)->car;
 ```
+
+#### Relation hasOne
+
+Let’s imagine that we have a Users Table with a hasOne relationship to an Phones Table.
+
+First, your database tables need to be keyed correctly. For a hasOne relationship to work, one table has to contain a foreign key that points to a record in the other. In this case the Phones table will contain a field called phones_id. The basic pattern is `Table name + "_id" string`:
+
+| Relation            | Normal Schema   |
+|---------------------|-----------------|
+| Users hasOne Phones | phones.users_id |
+| Phones hasOne Users | users.phones_id |
+
+> It is not mandatory to follow Lighty conventions, you can override the use of any foreignKey in your associations definitions. Nevertheless sticking to conventions will make your code less repetitive, easier to read and to maintain.
+
+If we had the UsersTable and PhonesTable classes made and UsersTable hasOne Phones relation, we could make the relation with the following code:
+
+```php
+public function phone()
+{
+	return $this->hasOne("Users");
+}
+```
