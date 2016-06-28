@@ -142,21 +142,21 @@ In addition to conditional statements, Atomium provides simple directives for wo
 
 
 `For` loop match `@for` tag:
-```php
+```
 @for($i = 0 ; $i < 10 ; $i++)
 	The value is {{ $i }} 
 @endfor
 ```
 
 `Foreach` loop match `@foreach` tag:
-```php
+```
 @foreach($persons as $key => $person)
 	The person is {{ $person }} 
 @endforeach
 ```
 
 `While` loop match `@while` tag:
-```php
+```
 @while($i < 10)
 	The value is {{ $i }} 
 	{{{ $i++; }}}
