@@ -11,14 +11,16 @@
 - [Control Structures](#control-structures)
 	- [If statements](#if-statements)
 
+----
 
-#### Introduction
+
+## Introduction
 
 Atomium is the simple, yet powerful template engine shipped with Lighty, it provides a way to make your code more clean and more elegent.
 
 Unlike other popular PHP templating engines, Atomium does not restrict you from using plain PHP code in your views. All Atomium views are compiled into plain PHP code and cached until they are modified, meaning Atomium adds essentially zero overhead to your application. Atomium view files use the `.atom` file extension and are typically stored in the app/views directory.
 
-#### Generate Atomium views
+## Generate Atomium views
 
 Lighty provides many ways to generate Atomium Views using Lumos and Panel, besides you can create them manually !
 
@@ -30,7 +32,7 @@ php lumos make:view layouts.userLayout.personeView --atom
 
 for more details see [Lumos Documentation](https://gitlab.com/lighty/Docs/blob/3.2/src/lumos.md#lumos).
 
-#### Layout
+## Layout
 
 Basically atomium file is html file ,merged with PHP code, but instead of using PHP tags we use atomium functions :
 
@@ -52,7 +54,7 @@ Basically atomium file is html file ,merged with PHP code, but instead of using 
 </html>
 ```
 
-#### Displaying Data
+## Displaying Data
 
 To display data you just need to use `{{ }}` tags, for exemple to show `"Hello World !"` string you need to implement this code : 
 
@@ -80,7 +82,7 @@ You may also echo the results of any PHP function :
 
 > **Note**: Atomium {{ }} statements are automatically sent through PHP's htmlentities function to prevent XSS attacks.
 
-#### PHP Tags
+## PHP Tags
 
 Atomium Unlike other popular PHP templating engines, it allow's you to use PHP tags `<?php ?>` whenever you want.
 
@@ -98,7 +100,7 @@ in fact, you can use `{{{ }}}` Atomium tags to execute PHP code :
 ```
 
 
-#### Comments
+## Comments
 
 Atomium allows you to define comments in your views. However, unlike HTML comments, Atomium comments are not included in the HTML returned by your application, comments could be one line or block of code :
 
@@ -114,11 +116,11 @@ Atomium allows you to define comments in your views. However, unlike HTML commen
 
 
 
-#### Control Structures
+## Control Structures
 
 In addition to displaying data, Atomium also provides convenient short-cuts for common PHP control structures, such as conditional statements and loops. These short-cuts provide a very clean way of working with PHP control structures.
 
-##### If statements
+### If statements
 
 You may construct `if` statements using the `@if`, `@elseif`, `@else`, and `@endif` tags. These directives function identically to their PHP counterparts:
 

@@ -12,17 +12,15 @@
 	- [Delete data](#delete-data)
 
 ----
-> `Class` : Lighty\Kernel\MVC\Model
 
-----
 
-### Introduction
+## Introduction
 
 In Lighty working with data could be done by MVC structure, Lighty built-in ORM specializes in relational databases by creating objects, These objects we call them `models`, they provide access to collections of data. They allow you to save new records, modify/delete existing ones, it's like if Lighty create virtual copy of your database tables to use in your application, cleanly and quite easy, all models are stored in `app/models` folder.
 
 Before we get started exploring the ORM, make sure your database connection is well configured.
 
-### Quick Example
+## Quick Example
 
 To get started you don’t have to write any code. If you’ve configured the connection between Lighty and your database in `config/database.php` file you can just start using the ORM. For example if we wanted to load some data from our persons table the model will be so :
 
@@ -47,7 +45,7 @@ In these example the model class is `mdlPerson` while the data table is `persons
 	echo $person->lastName;
 ```
 
-### Creating Models
+## Creating Models
 
 Lighty gives you two ways to create models using Lighty Panel or Lumos.
 
@@ -61,9 +59,9 @@ in this exemple Lumos will create model and name the file 'cars' in models folde
 
 for more details see [Lumos Documentation](https://gitlab.com/lighty/Docs/blob/3.2/src/lumos.md#lumos).
 	
-### CRUD (create, read, update, delete)
+## CRUD (create, read, update, delete)
 
-#### Insert new data
+### Insert new data
 
 To insert a new record in the database, simply create a new model instance, set attributes on the model, then use the `add()` method:
 
@@ -92,7 +90,7 @@ class ctrlPerson extends Controller
 
 In this example, we use two parameters for first and last name and assign them to firstName and lastName attribute of Person model instance,then we call add method to insert the record into database table.
 
-#### Read and get data
+### Read and get data
 
 There are many ways to get data from database using primary key or other row value by where clause.
 
@@ -121,7 +119,7 @@ class ctrlPerson extends Controller
 
 In this example, we pass a parameter contains the primary key to show method and we pass it again to Person model instance, then we return the result
 
-#### Update and edit data
+### Update and edit data
 
 To update an exist record in the database, simply get a new model instance by primary key, set attributes on the model, then use the `edit()` method:
 
@@ -150,7 +148,7 @@ class ctrlPerson extends Controller
 
 In this example, we use three parameters, the first one is the primary key and second and third one for first and last name, first we get data by model instance by primary key, and assign other parameters to firstName and lastName attribute of Person model instance,then we call edit method to update the record in database table.
 
-#### Delete data
+### Delete data
 
 To delete an exist record in the database, simply get a new model instance by primary key,  then use the `delete()` method of the model:
 
@@ -176,7 +174,7 @@ class ctrlPerson extends Controller
 
 In this example, we pass a parameter contains the primary key to delete method and we pass it again to Person model instance, then we call delete method to remove the record from database.
 
-### Relations
+## Relations
 
 Of course when you work with database you will need to get data from many tables and make relations between tables, for this reason, Lighty provide in its ORM system a quite simple way to relate between tables, For example, an article may have many comments, and belong to an author. Lighty can managing all this by using four Relations types : hasOne, hasMany, belongsTo, and belongsToMany:
 
@@ -234,7 +232,7 @@ Lighty uses PHP magic, so to get the car of the user 1 you should just call the 
 $car = User::find(1)->car;
 ```
 
-#### Relation hasOne
+### Relation hasOne
 
 Let’s imagine that we have a Users Table with a hasOne relationship to an Phones Table.
 
