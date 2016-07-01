@@ -1,4 +1,4 @@
-# Atomium
+# Atomium & Templating Engine
 
 [![alt return](https://gitlab.com/lighty/Art/raw/master/Resources/signs.png) Main Menu](https://gitlab.com/lighty/Docs/tree/3.2/#index)
 
@@ -10,6 +10,7 @@
 - [Comments](comments)
 - [Control Structures](#control-structures)
 	- [If statements](#if-statements)
+	- [Loops](#loops)
 
 ----
 
