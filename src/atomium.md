@@ -11,6 +11,7 @@
 - [Control Structures](#control-structures)
 	- [If statements](#if-statements)
 	- [Loops](#loops)
+	- [Calling Sub-Views](#calling-sub-views)
 
 ----
 

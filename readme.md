@@ -35,7 +35,7 @@ This is documentation is for v3.2 release :
 		- [Pass values to a view](https://gitlab.com/lighty/Docs/blob/3.2/src/views.md#pass-values-to-a-view)
 		- [Storing a view](https://gitlab.com/lighty/Docs/blob/3.2/src/views.md#storing-a-view)
 	- [Smarty Templating](https://gitlab.com/lighty/Docs/blob/3.2/src/views.md#smarty-templating)
-- [Atomium](https://gitlab.com/lighty/Docs/blob/3.2/src/atomium.md#atomium)
+- [Atomium & Templating Engine](https://gitlab.com/lighty/Docs/blob/3.2/src/atomium.md#atomium-templating-engine)
 	- [Introduction](https://gitlab.com/lighty/Docs/blob/3.2/src/atomium.md#introduction)
 	- [Generate Atomium views](https://gitlab.com/lighty/Docs/blob/3.2/src/atomium.md#generate-atomium-views)
 	- [Layout](https://gitlab.com/lighty/Docs/blob/3.2/src/atomium.md#layout)
