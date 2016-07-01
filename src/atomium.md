@@ -11,7 +11,8 @@
 - [Control Structures](#control-structures)
 	- [If statements](#if-statements)
 	- [Loops](#loops)
-	- [Calling Sub-Views](#calling-sub-views)
+- [Calling Sub-Views](#calling-sub-views)
+- [Translator](#translator)
 
 ----
 
@@ -165,7 +166,7 @@ In addition to conditional statements, Atomium provides simple directives for wo
 @endwhile;
 ```
 
-### Calling Sub-Views
+## Calling Sub-Views
 
 Of Course you can include view inside another view, Atomium allows you to easily do that by `@sub` function :
 
@@ -179,4 +180,14 @@ You may also pass an array of extra data to the included view:
 
 ```php
 @sub("folder.view", ["key" => $value]);
+```
+
+## Translator
+
+Atomium also help you to call translator words so easily by using `@lang` function :
+
+```php
+<div>
+	@lang("hello"); Youssef ! /// result is "Hola Youssef" in spanish
+</div>
 ```
