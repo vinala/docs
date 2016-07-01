@@ -110,7 +110,7 @@ Atomium allows you to define comments in your views. However, unlike HTML commen
 
 ```php
 {// 
-	Thats is block of code
+	That's block of code
 //}
 ```
 
@@ -161,4 +161,20 @@ In addition to conditional statements, Atomium provides simple directives for wo
 	The value is {{ $i }} 
 	{{{ $i++; }}}
 @endwhile;
+```
+
+### Calling Sub-Views
+
+Of Course you can include view inside another view, Atomium allows you to easily do that by `@sub` function :
+
+```php
+<div>
+	@sub("sections.slider");
+</div>
+```
+
+You may also pass an array of extra data to the included view:
+
+```php
+@sub("folder.view", ["key" => $value]);
 ```
