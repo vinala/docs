@@ -165,6 +165,8 @@ In addition to conditional statements, Atomium provides simple directives for wo
 	{{{ $i++; }}}
 @endwhile;
 ```
+to break loops you should just use `@break;` keyword;
+
 
 ## Calling Sub-Views
 

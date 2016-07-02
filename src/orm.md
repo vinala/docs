@@ -274,3 +274,6 @@ hasOne() relation accept one parameter and two other optional :
 * **primary**: The name of the column in the current table, that will be used for matching the foreignKey. If not specified, the id column (for example the id column of the Users table will be `users_id`) will be used.
 
 * **foreignKey** : the name of the foreign key found in the other table. This is especially handy if you need to define multiple hasOne relationships. The default value for this key is the underscored, the name of the current table, suffixed with `_id`. In the example above it would default to `users_id`.
+
+
+### Relation hasMany
