@@ -7,6 +7,7 @@
 - [Layout](#layout)
 - [Displaying Data](#displaying-data)
 - [PHP Tags](#php-tags)
+- [Execute PHP function](#execute-php-function)
 - [Comments](comments)
 - [Control Structures](#control-structures)
 	- [If statements](#if-statements)
@@ -100,6 +101,14 @@ in fact, you can use `{{{ }}}` Atomium tags to execute PHP code :
 	//
 	echo $name." ".$lastName;
 }}}
+```
+
+## Execute PHP function
+
+of course, sometimes you should execute functions, whether Lighty functions or PHP functions, those functions don't return any value to show, they just execute some process, to do so you could use `@assign` functions :
+
+```php
+@assign(die("error"));
 ```
 
 
