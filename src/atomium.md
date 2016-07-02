@@ -14,6 +14,7 @@
 	- [Loops](#loops)
 - [Calling Sub-Views](#calling-sub-views)
 - [Translator](#translator)
+- [CSS and JS](#css-and-js)
 
 ----
 
