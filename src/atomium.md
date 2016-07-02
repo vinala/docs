@@ -202,3 +202,15 @@ Atomium also help you to call translator words so easily by using `@lang` functi
 	@lang("hello"); Youssef ! /// result is "Hola Youssef" in spanish
 </div>
 ```
+
+## CSS and JS
+
+You could intgrate JS files and CSS files stored in `app/resources` in css and js folder by `@css` and `@js` function, without add file extension and especially without HTML `link` or `script` tags:
+
+```php
+@css("base"); 
+/// the CSS file is base.css and stored in app/resources/css/base.css
+
+@js("base"); 
+/// the JS file is base.js and stored in app/resources/js/base.js
+```
