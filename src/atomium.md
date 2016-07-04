@@ -217,3 +217,7 @@ You could intgrate JS files and CSS files stored in `app/resources` in css and j
 	/// the JS file is base.js and stored in app/resources/js/base.js
 </head>
 ```
+
+## Customize Atomium
+
+Guess what ! you can make your own tags in Atomium
