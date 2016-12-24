@@ -10,3 +10,11 @@
 ## Introduction
 
 Vinala includes a variety of global "shortcuts" PHP functions. Many of these functions are used by the framework itself; however, you are free to use them in your own applications if you find them convenient.
+
+## Available Methods
+
+- Debugging
+	- d
+	- dc
+	- s
+	
