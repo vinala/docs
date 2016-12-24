@@ -17,4 +17,8 @@ Vinala includes a variety of global "shortcuts" PHP functions. Many of these fun
 	- d
 	- dc
 	- s
-	
+- Exceptions
+	- abort
+	- abort_if
+	- exception_if
+	- exception
