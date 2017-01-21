@@ -19,6 +19,9 @@ To create link file you should use **Lumos** command:
 	$ php lumos make:link file_name
 
 once the command executed, the link file will be stored in `app/link` path.
+
+form more **Lumos** visite [here](https://gitlab.com/lighty/Docs/blob/3.3/src/lumos.md#lumos) 
+
 by default the framework have the links files :
 
 * `css` : for css files links
