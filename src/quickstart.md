@@ -1,6 +1,6 @@
 # Quick Start
 
-[![alt return](https://gitlab.com/lighty/Art/raw/master/Resources/signs.png) Main Menu](https://gitlab.com/lighty/Docs/tree/3.2/#index)
+[![alt return](https://gitlab.com/lighty/Art/raw/master/Resources/signs.png) Main Menu](https://gitlab.com/lighty/Docs/tree/3.3/#index)
 
 - [Installation](#installation)
 	- [Install Composer](#install-composer)
@@ -45,7 +45,7 @@ Lighty has some system requirements:
 
 ### Documentation
 
-We are working on Lighty documentation for every release version, you can take look or update the documentation of next release [here](https://gitlab.com/lighty/Docs/tree/3.2)
+We are working on Lighty documentation for every release version, you can take look or update the documentation of next release [here](https://gitlab.com/lighty/Docs/tree/3.3)
 
 
 ### Development
