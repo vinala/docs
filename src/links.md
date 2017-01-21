@@ -26,6 +26,20 @@ To get link from links files you should use `get()` functions providing to it a 
 to get the facebook link from social file, the code look like this:
 
 ```php
+<?php
+
 $link = Link::get('social.facebook');
+```
+
+### Set link while runtime
+
+You can set links while runtime by using `set()` functions providing to it two arguments , the first a key contains the file name dotted with the link index, the second is the link.
+
+to set new link, we will use file even if it doesn't exists with an index:
+
+```php
+<?php
+
+Link::set('something.google' , 'www.google.com');
 ```
 
