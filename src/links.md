@@ -1,5 +1,13 @@
 # Links
 
+[![alt return](https://gitlab.com/lighty/Art/raw/master/Resources/signs.png) Main Menu](https://gitlab.com/lighty/Docs/tree/3.2/#index)
+
+- [Introduction](#introduction)
+- [Create link file](#create-link-file)
+- [Using links](#using-links)
+	- [Get link](#get-link)
+	- [Set link while runtime](#set-link-while-runtime)
+
 ## Introduction
 
 Vinala provides a new way to organise links whether from inside the application or outside in the internet also allows you to change links so easily by links surface
