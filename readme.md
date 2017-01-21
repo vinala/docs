@@ -21,6 +21,7 @@ This is documentation is for v3.3 release :
 	- [Database](https://gitlab.com/lighty/Docs/blob/3.3/src/setup.md#database)
 	- [Security](https://gitlab.com/lighty/Docs/blob/3.3/src/setup.md#security)
 	- [Panel](https://gitlab.com/lighty/Docs/blob/3.3/src/setup.md#panel)
+- [Links](https://gitlab.com/lighty/Docs/blob/3.3/src/links.md#links)
 - [Routing](https://gitlab.com/lighty/Docs/blob/3.3/src/routing.md#routing)
 	- [Routing](https://gitlab.com/lighty/Docs/blob/3.3/src/routing.md#routing)
 		- [Routing GET](https://gitlab.com/lighty/Docs/blob/3.3/src/routing.md#routing-get)
