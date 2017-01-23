@@ -76,10 +76,29 @@ Vinala includes a variety of global "shortcuts" PHP functions. Many of these fun
 ### Global
 
 #### root
-The `root()` shortcut to get Application root path
+The `root()` shortcut returns a string contains the Application root path
 
 ```php
 echo root();
 
 // result : ../
+```
+
+#### check
+The `check()` shortcut return boolean for isset and not empty,
+if the given variable is set and not empty the function will return true and vice versa
+
+```php
+$name = 'Youssef';
+
+if(check($name)) // isset($name) && !empty($name)
+{
+	echo 'valide';
+}
+else
+{
+echo 'not valide';
+}
+
+// result : valide
 ```
