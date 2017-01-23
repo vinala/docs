@@ -14,8 +14,8 @@ Vinala includes a variety of global "shortcuts" PHP functions. Many of these fun
 
 ## Available Methods
 
-- Global
-	- root
+- [Global](#global)
+	- [root](#root)
 	- check
 	- path
 	- need
@@ -70,3 +70,16 @@ Vinala includes a variety of global "shortcuts" PHP functions. Many of these fun
 	- call
 	- pass
 	- request
+
+## Methods details
+
+### Global
+
+#### root
+The `root()` shortcut to get Application root path
+
+```php
+echo root();
+
+// ../
+```
