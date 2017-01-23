@@ -16,60 +16,60 @@ Vinala includes a variety of global "shortcuts" PHP functions. Many of these fun
 
 - [Global](#global)
 	- [root](#root)
-	- check
-	- path
-	- need
-	- needOnce
-	- config
-	- view
-	- instance
-	- statically
-- Validation
-	- validate
-- Surface
-	- cube
-	- surface
-- Debugging
-	- d
-	- dc
-	- trace
-	- s
-	- map
-	- out
-- Screen
-	- clear
-	- clean
-- Exceptions
-	- abort
-	- abort_if
-	- exception_if
-	- exception
-	- log
-- Datetime
-	- now
-- Arrays
-	- array_get
-	- array_add
-	- array_collapse
-	- array_forget
-	- array_has
-	- array_except
-- Strings
-	- trans / translate
-	- dot
-	- e
-	- ee
-	- str_contains
-- Redirection
-	- back
-	- redirect
-- HTTP
-	- get
-	- post
-	- target
-	- call
-	- pass
-	- request
+	- [check](#check)
+	- [path](#path)
+	- [need](#need)
+	- [needOnce](#needOnce)
+	- [config](#config)
+	- [view](#view)
+	- [instance](#instance)
+	- [statically](#statically)
+- [Validation](#Validation)
+	- [validate](#validate)
+- [Surface](#Surface)
+	- [cube](#cube)
+	- [surface](#surface)
+- [Debugging](#Debugging)
+	- [d](#d)
+	- [dc](#dc)
+	- [trace](#trace)
+	- [s](#s)
+	- [map](#map)
+	- [out](#out)
+- [Screen](#Screen)
+	- [clear](#clear)
+	- [clean](#clean)
+- [Exceptions](#Exceptions)
+	- [abort](#abort)
+	- [abort_if](#abort-if)
+	- [exception_if](#exception-if)
+	- [exception](#exception)
+	- [log](#log)
+- [Datetime](#Datetime)
+	- [now](#now)
+- [Arrays](#Arrays)
+	- [array_get](#array-get)
+	- [array_add](#array-add)
+	- [array_collapse](#array-collapse)
+	- [array_forget](#array-forget)
+	- [array_has](#array-has)
+	- [array_except](#array-except)
+- [Strings](#Strings)
+	- [trans / translate](#trans-/-translate)
+	- [dot](#dot)
+	- [e](#e)
+	- [ee](#ee)
+	- [str_contains](#str-contains)
+- [Redirection](#Redirection)
+	- [back](#back)
+	- [redirect](#redirect)
+- [HTTP](#HTTP)
+	- [get](#get)
+	- [post](#post)
+	- [target](#target)
+	- [call](#call)
+	- [pass](#pass)
+	- [request](#request)
 
 ## Methods details
 
@@ -81,5 +81,5 @@ The `root()` shortcut to get Application root path
 ```php
 echo root();
 
-// ../
+// result : ../
 ```
