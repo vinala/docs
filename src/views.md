@@ -10,12 +10,12 @@
 
 ## Views
 
-Views consist of your application HTML and PHP in an elegant way that manipulates the controllers in your application, all views are stored in the directory `app/views`.
+Views consist of your application HTML and PHP in an elegant way that manipulates the controllers in your application, all views are stored in the directory `resources/views`.
 
 A simple view might look like this:
 
 ```php
-<!-- View stored in app/views/hello.php -->
+<!-- View stored in resources/views/hello.php -->
 <html>
 	<body>
 		<p> Hello <?php echo $name ?> </p>
@@ -48,12 +48,12 @@ you can also use the Scope function `view()`.
 view('view-name');
 ```
 
-If the view you are calling is in a directory inside `app/views`, The method call must be preceded by the directory name, separated by a point with the name of the view like this:
+If the view you are calling is in a directory inside `resources/views`, The method call must be preceded by the directory name, separated by a point with the name of the view like this:
 
-Here is the view that we will call, notice that the view is stored in the `app/views/home`.
+Here is the view that we will call, notice that the view is stored in the `resources/views/home`.
 
 ```php
-<!-- View stored in app/views/home/hello.php -->
+<!-- View stored in resources/views/home/hello.php -->
 <html>
 	<body>
 		<p> Hello Visitor </p>
@@ -78,7 +78,7 @@ View::make('home.hello',array('firstName' => 'Youssef','lastName' => 'Had'));
 Here is the view:
 
 ```php
-<!-- View stored in app/views/home/hello.php -->
+<!-- View stored in resources/views/home/hello.php -->
 <html>
 	<body>
 		<p> Hello <?php echo $firstName." ".$lastName ?> </p> <!-- result : Hello Youssef Had -->
@@ -101,6 +101,6 @@ Lighty uses Smarty.
 
 Smarty is a web template system written in PHP. Smarty is primarily promoted as a tool for separation of concerns.[2] Smarty is intended to simplify compartmentalization, allowing the front-end of a web page to change separately from its back-end. Ideally, this lowers costs and minimizes the efforts associated with software maintenance. **(Source : Wikipedia)**
 
-All views stored in `app\views` and uses Smarty should have `.tpl.php` extension.
+All views stored in `resources\views` and uses Smarty should have `.tpl.php` extension.
 
 For more information on Smarty visit the official [website](http://www.smarty.net/) of Smarty.
