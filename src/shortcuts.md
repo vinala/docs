@@ -4,6 +4,9 @@
 
 - [Introduction](#introduction)
 - [Available Methods](#available-methods)
+- [Methods details](#methods-details)
+
+## 
 
 
 ----
@@ -71,7 +74,7 @@ Vinala includes a variety of global "shortcuts" PHP functions. Many of these fun
 	- [pass](#pass)
 	- [request](#request)
 
-## Methods details
+## Methods Details
 
 ### Global
 
