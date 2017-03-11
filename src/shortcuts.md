@@ -79,7 +79,7 @@ Vinala includes a variety of global "shortcuts" PHP functions. Many of these fun
 ### Global
 
 #### root
-The `root()` shortcut returns a string contains the Application root path
+The `root()` shortcut returns a string contains the Application root path:
 
 ```php
 <?php
