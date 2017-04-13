@@ -198,3 +198,43 @@ Route::target('people/hello', 'People@sayHello');
 ```
 
 You can also use the helper `target()`.
+
+## Lumos in Router surface
+
+Lumos provides several commands for Routes surface to save the time to creating new route.
+
+* To generate get route run the 'make:get' or with abbreviation `m:g` command passing the name of the route:
+
+```shell
+$ php lumos make:get clients
+```
+
+or
+
+```shell
+$ php lumos m:g clients
+```
+
+* To generate post route run the 'make:post' or with abbreviation `m:p` command passing the name of the route:
+
+```shell
+$ php lumos make:post clients
+```
+
+or
+
+```shell
+$ php lumos m:p clients
+```
+
+* To generate target route run the 'make:target' or with abbreviation `m:tar` command passing the name of the route and the controller name and method name:
+
+```shell
+$ php lumos make:taget client/welcome Client sayHello
+```
+
+or
+
+```shell
+$ php lumos m:tar client/welcome Client sayHello
+```
