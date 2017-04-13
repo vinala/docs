@@ -123,13 +123,7 @@ resource('client', 'clientCntrl');
 
 so if users request `www.exemple.com/index` the framework will run `clientCntrl::index()`.
 
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
-.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
-.tg .tg-9hbo{font-weight:bold;vertical-align:top}
-.tg .tg-yw4l{vertical-align:top}
-</style>
+
 <table class="tg" style="undefined;table-layout: fixed; width: 900px">
 <colgroup>
 <col style="width: 111px">
