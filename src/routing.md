@@ -20,7 +20,8 @@ All routes of the application are defined in the file `app/http/Routes.php`, the
 
 A simple route declaration might look like this:
 
-```php <?php
+```php 
+<?php
 Route::get('/', function()
 {
 	echo 'Hello World';
@@ -30,7 +31,8 @@ This route for HTTP Get method for empty HTTP request like this `www.exemple.com
 
 You can also use the Scope function  `get()`.
 
-```php <?php
+```php 
+<?php
 get('/', function()
 {
 	echo 'Hello World';
@@ -43,7 +45,8 @@ get('/', function()
 
 If we want to go to this URL `www.exemple.com/world/home` we take the request after the first slash 'world/home'.
 
-```php <?php
+```php 
+<?php
 Route::get('world/home', function()
 {
 	echo 'Hello this is world and home';
@@ -55,7 +58,8 @@ Route::get('world/home', function()
 Usually when you want to pass data in the url you use URLs like this `www.exemple.com/?fname=youssef&lname=had`.
 In Lighty you can use more simple way to pass data and get data from URL.
 
-```php <?php
+```php 
+<?php
 Route::get('user/{fname}/{lname}', function($fname,$lname)
 {
 	echo "Hello $fname $lname"; <!-- result : Hello Youssef Had -->
@@ -64,7 +68,8 @@ Route::get('user/{fname}/{lname}', function($fname,$lname)
 
 You may define as many route parameters as required by your route:
 
-```php <?php
+```php 
+<?php
 Route::get('post/{postID}/comment/{commentID}', function($postID,$commentID)
 {
 	//
@@ -78,7 +83,8 @@ filters are simply methods that run before the route request to check a conditio
 
 Here's a filter to allow website visitors to see the content only in Saturdays.
 
-```php <?php
+```php 
+<?php
 Route::filter("just_saturday", function()
 {
 	if(date("D") != "Sat"){
@@ -89,7 +95,8 @@ Route::filter("just_saturday", function()
 ```
 implementation of this filter is like that
 
-```php <?php
+```php 
+<?php
 Route::get('/', array("just_saturday",function()
 {
 	echo "Hi! this is saturday";
@@ -102,13 +109,15 @@ You can determine a set of routes to the static methods of a controller (index -
 
 In this example, we create a client controller calls clientCntrl, to access this controller we use the client route:
 
-```php <?php
+```php 
+<?php
 Route::resource('client', 'clientCntrl');
 ```
 
 or 
 
-```php <?php
+```php 
+<?php
 resource('client', 'clientCntrl');
 ```
 
