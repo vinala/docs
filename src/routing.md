@@ -9,6 +9,9 @@
 		- [Routing GET with dynamic parameters](#routing-g-with-dynamic-parameters)
 - [Filters](#filters)
 - [Routes of Controller](#routes-of-controller)
+- [Routes of Controller methods](#routes-of-controller-methods)
+
+
 
 ## Routing
 
@@ -29,7 +32,7 @@ Route::get('/', function()
 ```
 This route for HTTP Get method for empty HTTP request like this `www.exemple.com/`.
 
-You can also use the Scope function  `get()`.
+You can also use the helper `get()`.
 
 ```php 
 <?php
@@ -47,7 +50,7 @@ If we want to go to this URL `www.exemple.com/world/home` we take the request af
 
 ```php 
 <?php
-Route::get('world/home', function()
+get('world/home', function()
 {
 	echo 'Hello this is world and home';
 });
@@ -60,7 +63,7 @@ In Lighty you can use more simple way to pass data and get data from URL.
 
 ```php 
 <?php
-Route::get('user/{fname}/{lname}', function($fname,$lname)
+get('user/{fname}/{lname}', function($fname,$lname)
 {
 	echo "Hello $fname $lname"; <!-- result : Hello Youssef Had -->
 });
@@ -70,7 +73,7 @@ You may define as many route parameters as required by your route:
 
 ```php 
 <?php
-Route::get('post/{postID}/comment/{commentID}', function($postID,$commentID)
+get('post/{postID}/comment/{commentID}', function($postID,$commentID)
 {
 	//
 });
@@ -97,7 +100,7 @@ implementation of this filter is like that
 
 ```php 
 <?php
-Route::get('/', array("just_saturday",function()
+get('/', array("just_saturday",function()
 {
 	echo "Hi! this is saturday";
 }));
@@ -114,7 +117,7 @@ In this example, we create a client controller calls clientCntrl, to access this
 Route::resource('client', 'clientCntrl');
 ```
 
-or 
+or with `resource` helper:
 
 ```php 
 <?php
@@ -181,4 +184,17 @@ so if users request `www.exemple.com/index` the framework will run `clientCntrl:
   </tr>
 </table>
 
+## Routes of Controller methods
 
+> **Requirement** : this feature require **v3.3.19** of Vinala Kernel, to get the current version of your app kernel, run the command `php lumos i`
+
+Vinala allows to specify and run controller method from Route function by using `@` in **target** function.
+
+to attach the route `people/hello` with the function `sayhello` in `People` controller : 
+
+```php 
+<?php
+Route::target('people/hello', 'People@sayHello');
+```
+
+You can also use the helper `target()`.
