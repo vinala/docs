@@ -10,8 +10,9 @@
 - [Filters](#filters)
 - [Routes of Controller](#routes-of-controller)
 - [Routes of Controller methods](#routes-of-controller-methods)
+- [Lumos in Router surface](#lumos-in-router-surface)
 
-
+----
 
 ## Routing
 
@@ -78,7 +79,52 @@ get('post/{postID}/comment/{commentID}', function($postID,$commentID)
 	//
 });
 ```
-## Filters 
+
+## Middlewares
+
+Middlewares are simply methods that run before the route request to check a condition. if the filter return true, then the route runs normally else you can use redirection or theow exception.
+
+All middlewares of the application are defined in the file `app/http/middlewares/`.
+
+To create middleware simply run the lumos command 'make:middleware' or 'm:mi' providing the name of the middleware.
+
+```shell
+$ php lumos make:middleware Only_Friday
+```
+
+the result should be like this:
+
+```php
+<?php
+
+namespace App\Http\Middleware;
+
+use Vinala\Kernel\Http\Request;
+
+/**
+* Only_Friday Middleware
+*
+**/
+class Only_Friday
+{
+
+	/**
+	* Handle the middleware
+	*
+	* @param Vinala\Kernel\Http\Request $req
+	* @return bool|string
+	**/
+	public function handle(Request $req)
+	{
+		// do something
+	}
+
+}
+```
+
+...
+
+## Filters (Deprecated)
 
 All filters of the application are defined in the file `app/http/Filters.php`.
 
