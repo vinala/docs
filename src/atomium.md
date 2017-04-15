@@ -206,17 +206,41 @@ Atomium also help you to call translator words so easily by using `@lang` functi
 
 ## CSS and JS
 
-You could intgrate JS files and CSS files stored in `app/resources` in css and js folder by `@css` and `@js` function, without add file extension and especially without HTML `link` or `script` tags:
+You could intgrate JS files and CSS files stored in `assets/` in css and js folder by `@css` and `@js` function, without add file extension and especially without HTML `link` or `script` tags:
 
 ```php
 <head>
 	@css("base"); 
-	/// the CSS file is base.css and stored in app/resources/css/base.css
+	/// the CSS file is base.css and stored in assets/css/base.css
 
 	@js("base"); 
-	/// the JS file is base.js and stored in app/resources/js/base.js
+	/// the JS file is base.js and stored in assets/js/base.js
 </head>
 ```
+
+you can also add a range of files passing array contains names of file : 
+
+```php
+<head>
+	@css(['base', 'main', 'bootstrap']); 
+
+	@js(['main', 'jquery']); 
+</head>
+```
+
+if the file inside a folder Assets surface and Atomium uses the Dot Addressing.
+
+like if the file is 'assets/css/bootstrap/bootstrap.min.css' you should rename the file as boostrap-min.css and use the follwing code : 
+
+```php
+<head>
+	@css('bootstrap.bootstrap-min'); 
+
+</head>
+```
+
+The same thing for javascript
+
 
 ## Customize Atomium
 
