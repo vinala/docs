@@ -146,7 +146,7 @@ to use this middleware to all routes, add it to `$middleware` array in Filter cl
 <?php
 
   public static $routeMiddleware = [
-        'OnlyFriday' => \App\Http\Middleware\Only_Friday::class,
+        'Only_Friday' => \App\Http\Middleware\Only_Friday::class,
     ];
 
 ```
