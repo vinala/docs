@@ -124,6 +124,23 @@ class Only_Friday
 
 now you should handle the middleware in `handle()` function using the Request var $req you can get all request var.
 
+so to make the middleware filter the user access, and allow users to visit your website only on fridays :
+
+```php 
+	public function handle(Request $req)
+	{
+			if(date("D") != "Fri") {
+        
+        throw new Exception('The website is currently closed until next friday!');
+        return false;
+      }
+      else return pass(;)
+	}
+```
+
+this middleware need to be accepted from the framework. to do that, you should add it to `app/http/Filter.php`.
+
+
 ## Filters (Deprecated)
 
 All filters of the application are defined in the file `app/http/Filters.php`.
