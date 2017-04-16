@@ -122,7 +122,7 @@ class Only_Friday
 }
 ```
 
-...
+now you should handle the middleware in `handle()` function using the Request var $req you can get all request var.
 
 ## Filters (Deprecated)
 
