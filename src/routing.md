@@ -140,7 +140,7 @@ so to make the middleware filter the user access, and allow users to visit your 
 
 this middleware need to be accepted from the framework. to do that, you should add it to `app/http/Filter.php`.
 
-to use this middleware to all routes, add it to `$middleware` array in Filter class,otherwise to use it in routes, add it to `$route` array in Filter class.
+to use this middleware to all routes, add it to `$middleware` array in Filter class,otherwise to use it in routes, add it to `$routeMiddleware` array in Filter class as value of an key to call in Routes file.
 
 
 ## Filters (Deprecated)
