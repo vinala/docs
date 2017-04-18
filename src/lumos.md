@@ -66,6 +66,19 @@ Lighty will generate sql file contains tables structure and data in `/database/b
 
 	$ php lumos rollback:schema
 
+#### Creating Views
+
+To create views in Vinala, use `make:view` as default configuration, providing the path and name of the view and the type if you using Atomium or Smarty.
+
+In the path and name replace slashes by dots.
+
+Exampl, to create a view called 'search' inside folders 'sections/users', run the follwing command:
+
+	$ php lumos make:view sections.users.search
+
+to use any of tempalte engines used in Vinala (Atomium or Smarty) pass the option `--atom` in the command for Atomium or `--smarty` for smart as well :
+
+	$ php lumos make:view sections.users.search --atom
 
 ## Creating user commands
 

@@ -3,6 +3,7 @@
 [![alt return](https://gitlab.com/lighty/Art/raw/master/Resources/signs.png) Main Menu](https://gitlab.com/lighty/Docs/tree/3.3/#index)
 
 - [Views](#views)
+	- [Creating a view](#calling-a-view)
 	- [Calling a view](#calling-a-view)
 	- [Pass values to a view](#pass-values-to-a-view)
 	- [Storing a view](#storing-a-view)
@@ -32,6 +33,11 @@ Route::get('/', function()
 });
 ```
 
+### Creating a view
+
+To create a view in Vinala, two ways, manualy and by Lumos.
+
+For Lumos please check the [Lumos Creating Views]() part.
 ### Calling a view
 
 In Vinala we calling the views using the method `View::make()` :
@@ -109,7 +115,7 @@ echo $view;
 
 ## Smarty Templating
 
-Lighty uses Smarty.
+Vinala uses Smarty.
 
 Smarty is a web template system written in PHP. Smarty is primarily promoted as a tool for separation of concerns.[2] Smarty is intended to simplify compartmentalization, allowing the front-end of a web page to change separately from its back-end. Ideally, this lowers costs and minimizes the efforts associated with software maintenance. **(Source : Wikipedia)**
 
