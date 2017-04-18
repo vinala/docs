@@ -71,13 +71,13 @@ You may retrieve lines from language files using the `translat` or `trans` helpe
 
 ```php
 <?php
-    echo translat('message.hello');
+    echo translat('messages.hello');
 ```
 
 Of course if you are using the **Atomium templating engine**, you may use the {{ }} syntax to echo the translation string or use the @lang directive:
 
 ```php
-    {{ translat('message.hello'); }}
+    {{ translat('messages.hello'); }}
 
-    @lang('message.hello');
+    @lang('messages.hello');
 ```
