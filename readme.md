@@ -73,7 +73,7 @@ This is documentation is for v3.3 release :
 	- [Dealing with caching](https://gitlab.com/lighty/Docs/blob/3.3/src/caching.md#dealing-with-caching)
 		- [Set the cache](https://gitlab.com/lighty/Docs/blob/3.3/src/caching.md#set-the-cache)
 		- [Get the cache](https://gitlab.com/lighty/Docs/blob/3.3/src/caching.md#get-the-cache)
-- [Shortcuts](https://gitlab.com/lighty/Docs/blob/3.3/src/shortcuts.md#shortcuts)
+- [Helpers](https://gitlab.com/lighty/Docs/blob/3.3/src/helpers.md#helpers)
 	- [Introduction](https://gitlab.com/lighty/Docs/blob/3.3/src/shortcuts.md#introduction)
 - [Lumos](https://gitlab.com/lighty/Docs/blob/3.3/src/lumos.md#lumos)
 	- [Info](https://gitlab.com/lighty/Docs/blob/3.3/src/lumos.md#info)

@@ -1,10 +1,11 @@
-# Shortcuts
+# Helpers
 
 [![alt return](https://gitlab.com/lighty/Art/raw/master/Resources/signs.png) Main Menu](https://gitlab.com/lighty/Docs/tree/3.3/#index)
 
 - [Introduction](#introduction)
 - [Available Methods](#available-methods)
 - [Methods details](#methods-details)
+- [User Helpers](#user-helpers)
 
 ## 
 
@@ -13,7 +14,7 @@
 
 ## Introduction
 
-Vinala includes a variety of global "shortcuts" PHP functions. Many of these functions are used by the framework itself; however, you are free to use them in your own applications if you find them convenient.
+Vinala includes a variety of global PHP helpers. Many of these functions are used by the framework itself; however, you are free to use them in your own applications if you find them convenient.
 
 ## Available Methods
 
