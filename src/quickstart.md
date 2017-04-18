@@ -12,7 +12,7 @@
 - [Versions and Changelog](#versions-and-changelog)
 - [Licence](#licence)
 
-## Lighty
+## Vinala
 
 Vinala, a PHP Framework for web developers
 
