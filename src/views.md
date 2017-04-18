@@ -34,18 +34,18 @@ Route::get('/', function()
 
 ### Calling a view
 
-In Lighty we calling the views using the method `View::make()` :
+In Vinala we calling the views using the method `View::make()` :
 
 ```php
-View::make('view-name');
+return View::make('view-name');
 ```
 
 In this example, we passed a parameter contains the file name of the view stored in views folder.
 
-you can also use the Scope function `view()`.
+you can also use the `view()` helper.
 
 ```php
-view('view-name');
+return view('view-name');
 ```
 
 If the view you are calling is in a directory inside `resources/views`, The method call must be preceded by the directory name, separated by a point with the name of the view like this:
@@ -64,7 +64,7 @@ Here is the view that we will call, notice that the view is stored in the `resou
 So the calling of this view must be like this:
 
 ```php
-View::make('home.hello');
+return View::make('home.hello');
 ```
 
 ### Pass values to a view
@@ -75,18 +75,30 @@ To pass values to a view you must pass in the second parameter of the method an 
 View::make('home.hello',array('firstName' => 'Youssef','lastName' => 'Had'));
 ```
 
+or you can use `with()` function passing array of data or two params the first is the name and the second is the value of the property:
+
+```php
+return view('home.hello')->with(['firstName' => 'Youssef','lastName' => 'Had']);
+```
+or 
+```php
+return view('home.hello')
+	->with('firstName', 'Youssef')
+	->with('lastName', 'Had');
+```
+
 Here is the view:
 
 ```php
 <!-- View stored in resources/views/home/hello.php -->
 <html>
 	<body>
-		<p> Hello <?php echo $firstName." ".$lastName ?> </p> <!-- result : Hello Youssef Had -->
+		<p> Hello <?php echo $firstName.' '.$lastName ?> </p> <!-- result : Hello Youssef Had -->
 	</body>
 </html>
 ```
 
-### Storing a view
+### Storing a view (depracated)
 
 For storing a view in a variable, use the method `View::get()`:
 
