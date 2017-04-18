@@ -37,7 +37,8 @@ Route::get('/', function()
 
 To create a view in Vinala, two ways, manualy and by Lumos.
 
-For Lumos please check the [Lumos Creating Views]() part.
+For Lumos please check the [Lumos Creating Views](https://gitlab.com/lighty/Docs/blob/3.3/src/lumos.md#creating-views) part.
+
 ### Calling a view
 
 In Vinala we calling the views using the method `View::make()` :
