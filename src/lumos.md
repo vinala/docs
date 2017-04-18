@@ -12,6 +12,8 @@
 		- [Genarate Schema](#Genarate-Schema)
 		- [Execute Schema](#execute-schema)
 		- [Rollback Schema](#rollback-schema)
+	- [Views](#views)
+		- [Creating Views](#creating-views)	
 	- [Links](#links)
 
 - [Creating user commands](#creating-user-commands)
@@ -66,6 +68,7 @@ Lighty will generate sql file contains tables structure and data in `/database/b
 
 	$ php lumos rollback:schema
 
+### Views
 #### Creating Views
 
 To create views in Vinala, use `make:view` as default configuration, providing the path and name of the view and the type if you using Atomium or Smarty.
