@@ -3,6 +3,15 @@
 [![alt return](https://gitlab.com/lighty/Art/raw/master/Resources/signs.png) Main Menu](https://gitlab.com/lighty/Docs/tree/3.3/#index)
 
 - [Introduction](#introduction)
+- [Configuring The Translator](#configuring-the-translator)
+- [Determining The Current Language](#determining-the-current-language)
+- [Managing the Translator surface](#managing-the-translator-surface)
+    - [Creating language files](#creating-language-files)
+    - [Calling language keys](#calling-language-keys)
+
+
+
+
 
 ----
 
