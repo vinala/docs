@@ -21,6 +21,8 @@ This is documentation is for v3.3 release :
 	- [Using links](https://gitlab.com/lighty/Docs/blob/3.3/src/links.md#using-links)
 		- [Get link](https://gitlab.com/lighty/Docs/blob/3.3/src/links.md#get-link)
 		- [Set link while runtime](https://gitlab.com/lighty/Docs/blob/3.3/src/links.md#set-link-while-runtime)
+- [Translator](https://gitlab.com/lighty/Docs/blob/3.3/src/translator.md#translator)
+	- [Introduction](https://gitlab.com/lighty/Docs/blob/3.3/src/translator.md#introduction)
 - [Routing](https://gitlab.com/lighty/Docs/blob/3.3/src/routing.md#routing)
 	- [Routing](https://gitlab.com/lighty/Docs/blob/3.3/src/routing.md#routing)
 		- [Routing GET](https://gitlab.com/lighty/Docs/blob/3.3/src/routing.md#routing-get)
