@@ -54,6 +54,8 @@ get('lang/{lang}', function($lang) {
 You may use the **detect()** method on the Translator surface to determine the current language:
 
 ```php
+<?php
+
 $language = Translator::detect();
 ```
 
@@ -71,6 +73,7 @@ You may retrieve lines from language files using the `translat` or `trans` helpe
 
 ```php
 <?php
+
     echo translat('messages.hello');
 ```
 
@@ -80,4 +83,28 @@ Of course if you are using the **Atomium templating engine**, you may use the {{
     {{ translat('messages.hello'); }}
 
     @lang('messages.hello');
+```
+
+#### Quick language keys
+
+Vinala provide a simple tools find your important language keys, by creating files named as language name:
+
+
+
+```php
+<?php
+
+// file in resources/translator/fr/fr.php
+
+return [
+    'whats_up' => 'Quoi de neuf',
+];
+```
+
+to get this key, use just the key name without using file name:
+
+```php
+<?php
+
+    echo translat('whats_up');
 ```
