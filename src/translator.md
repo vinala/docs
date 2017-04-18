@@ -51,3 +51,24 @@ $language = Translator::detect();
 ### Managing the Translator surface
 
 #### Creating language files
+
+Creating language files could be done in two ways, manually and by lumos.
+
+For Lumos, please check the [Creating Language file](https://gitlab.com/lighty/Docs/blob/3.3/src/lumos.md#creating-language-file) part.
+
+#### Calling language keys
+
+You may retrieve lines from language files using the `translat` or `trans` helpers functions. The translator method accepts the file and key of the translation string as its first argument. For example, let's retrieve the hello translation string from the resources/lang/messages.php language file:
+
+```php
+<?php
+    echo translat('message.hello');
+```
+
+Of course if you are using the **Atomium templating engine**, you may use the {{ }} syntax to echo the translation string or use the @lang directive:
+
+```php
+    {{ translat('message.hello'); }}
+
+    @lang('message.hello');
+```

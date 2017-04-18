@@ -14,6 +14,8 @@
 		- [Rollback Schema](#rollback-schema)
 	- [Views](#views)
 		- [Creating Views](#creating-views)	
+	- [Translator](#translator)
+		- [Creating Language file](#creating-language-file)	
 	- [Links](#links)
 
 - [Creating user commands](#creating-user-commands)
@@ -82,6 +84,15 @@ Exampl, to create a view called 'search' inside folders 'sections/users', run th
 to use any of tempalte engines used in Vinala (Atomium or Smarty) pass the option `--atom` in the command for Atomium or `--smarty` for smart as well :
 
 	$ php lumos make:view sections.users.search --atom
+
+### Translator
+#### Creating Language file
+
+To create language file in Vinala, use `make:lang` as default configuration, providing the lang and name of the key language concatenated by dot.
+
+Exampl, to create a language file called 'profile' inside 'en' language folder, run the follwing command:
+
+	$ php lumos make:lang en.profile
 
 ## Creating user commands
 
