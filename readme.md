@@ -78,6 +78,7 @@ This is documentation is for v3.3 release :
 - [Helpers](https://gitlab.com/lighty/Docs/blob/3.3/src/helpers.md#helpers)
 	- [Introduction](https://gitlab.com/lighty/Docs/blob/3.3/src/helpers.md#introduction)
 	- [Available Methods](https://gitlab.com/lighty/Docs/blob/3.3/src/helpers.md#available-methods)
+	- [User Helpers](https://gitlab.com/lighty/Docs/blob/3.3/src/helpers.md#user-helpers)
 - [Lumos](https://gitlab.com/lighty/Docs/blob/3.3/src/lumos.md#lumos)
 	- [Info](https://gitlab.com/lighty/Docs/blob/3.3/src/lumos.md#info)
 		- [Owner Infos](https://gitlab.com/lighty/Docs/blob/3.3/src/lumos.md#owner-infos)

@@ -110,3 +110,35 @@ echo 'not valide';
 
 // result : valide
 ```
+
+## User Helpers
+
+Vinala allows you to create your own helpers, by executing the lumos command `make:helper` passing the name of helper.
+
+```shell
+	$ php lumos make:helper hello
+```
+
+Helpers are stored in `support/helper` folder.
+
+The helper could be like :
+
+```php
+<?php
+
+if ( ! function_exists("hello")) 
+{
+	function hello()
+	{
+		return 'Hello World';
+	}	
+}
+```
+
+now you could simply call a helper as any function:
+
+```php
+<?php
+
+echo hello(); // result : Hello World
+```
