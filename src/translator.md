@@ -28,3 +28,26 @@ return [
     'hello' => 'Hello World!',
 ];
 ```
+
+### Configuring The Translator 
+
+The default language for your application is stored in `default` parameter in the `config/lang.php` configuration file. Of course, you may modify this value to suit the needs of your application. You may also change the active language at runtime using the `set()` method on the **Translator** surface:
+
+```php
+<?php 
+get('lang/{lang}', function($lang) {
+    Translator::set($lang);
+});
+```
+
+### Determining The Current Language
+
+You may use the **detect()** method on the Translator surface to determine the current language:
+
+```php
+$language = Translator::detect();
+```
+
+### Managing the Translator surface
+
+#### Creating language files
