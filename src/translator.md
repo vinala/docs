@@ -1,6 +1,6 @@
 ## Translator
 
-[![alt return](https://gitlab.com/lighty/Art/raw/master/Resources/signs.png) Main Menu](https://gitlab.com/lighty/Docs/tree/3.3/#index)
+[![alt return](https://gitlab.com/lighty/Art/raw/master/Resources/signs.png) Main Menu](https://github.com/vinala/docs/tree/3.3/#index)
 
 - [Introduction](#introduction)
 - [Configuring The Translator](#configuring-the-translator)
@@ -65,7 +65,7 @@ $language = Translator::detect();
 
 Creating language files could be done in two ways, manually and by lumos.
 
-For Lumos, please check the [Creating Language file](https://gitlab.com/lighty/Docs/blob/3.3/src/lumos.md#creating-language-file) part.
+For Lumos, please check the [Creating Language file](https://github.com/vinala/docs/blob/3.3/src/lumos.md#creating-language-file) part.
 
 #### Calling language keys
 

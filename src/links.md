@@ -1,6 +1,6 @@
 # Links
 
-[![alt return](https://gitlab.com/lighty/Art/raw/master/Resources/signs.png) Main Menu](https://gitlab.com/lighty/Docs/tree/3.3/#index)
+[![alt return](https://gitlab.com/lighty/Art/raw/master/Resources/signs.png) Main Menu](https://github.com/vinala/docs/tree/3.3/#index)
 
 - [Introduction](#introduction)
 - [Create link file](#create-link-file)
@@ -20,7 +20,7 @@ To create link file you should use **Lumos** command:
 
 once the command executed, the link file will be stored in `app/link` path.
 
-form more **Lumos** visite [here](https://gitlab.com/lighty/Docs/blob/3.3/src/lumos.md#lumos) 
+form more **Lumos** visite [here](https://github.com/vinala/docs/blob/3.3/src/lumos.md#lumos) 
 
 by default the framework have the links files :
 

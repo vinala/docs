@@ -1,6 +1,6 @@
 # ORM (Object-Relational Mapping) and Database Access
 
-[![alt return](https://gitlab.com/lighty/Art/raw/master/Resources/signs.png) Main Menu](https://gitlab.com/lighty/Docs/tree/3.3/#index)
+[![alt return](https://gitlab.com/lighty/Art/raw/master/Resources/signs.png) Main Menu](https://github.com/vinala/docs/tree/3.3/#index)
 
 - [Introduction](#introduction)
 - [Quick Example](#quick-example)
@@ -57,7 +57,7 @@ $ php lumos make:model cars mdlCars tbl_cars
 ```
 in this exemple Lumos will create model and name the file 'cars' in models folder, and the class is 'mdlCars', the data table will be 'tbl_cars'.
 
-for more details see [Lumos Documentation](https://gitlab.com/lighty/Docs/blob/3.3/src/lumos.md#lumos).
+for more details see [Lumos Documentation](https://github.com/vinala/docs/blob/3.3/src/lumos.md#lumos).
 	
 ## CRUD (create, read, update, delete)
 

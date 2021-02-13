@@ -1,6 +1,6 @@
 # Views
 
-[![alt return](https://gitlab.com/lighty/Art/raw/master/Resources/signs.png) Main Menu](https://gitlab.com/lighty/Docs/tree/3.3/#index)
+[![alt return](https://gitlab.com/lighty/Art/raw/master/Resources/signs.png) Main Menu](https://github.com/vinala/docs/tree/3.3/#index)
 
 - [Views](#views)
 	- [Creating a view](#calling-a-view)
@@ -37,7 +37,7 @@ Route::get('/', function()
 
 To create a view in Vinala, two ways, manualy and by Lumos.
 
-For Lumos please check the [Lumos Creating Views](https://gitlab.com/lighty/Docs/blob/3.3/src/lumos.md#creating-views) part.
+For Lumos please check the [Lumos Creating Views](https://github.com/vinala/docs/blob/3.3/src/lumos.md#creating-views) part.
 
 ### Calling a view
 

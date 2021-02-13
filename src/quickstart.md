@@ -1,6 +1,6 @@
 # Quick Start
 
-[![alt return](https://gitlab.com/lighty/Art/raw/master/Resources/signs.png) Main Menu](https://gitlab.com/lighty/Docs/tree/3.3/#index)
+[![alt return](https://gitlab.com/lighty/Art/raw/master/Resources/signs.png) Main Menu](https://github.com/vinala/docs/tree/3.3/#index)
 
 - [Installation](#installation)
 	- [Install Composer](#install-composer)
@@ -45,7 +45,7 @@ Vinala has some system requirements:
 
 ### Documentation
 
-We are working on Vinala documentation for every release version, you can take look or update the documentation of next release [here](https://gitlab.com/lighty/Docs/tree/3.3)
+We are working on Vinala documentation for every release version, you can take look or update the documentation of next release [here](https://github.com/vinala/docs/tree/3.3)
 
 
 ### Development
